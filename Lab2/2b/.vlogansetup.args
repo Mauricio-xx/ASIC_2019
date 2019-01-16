@@ -1,0 +1,6 @@
+1
+-1547186577
+register_bank_tb.sv 
+register_bank_tb.sv
+   /usr/synopsys/vcs-mx/M-2017.03-SP2-3/linux64/bin/vcs1 -Mcc=gcc -Mcplusplus=g++ -Masflags= -Mcfl=' -pipe -O -I/usr/synopsys/vcs-mx/M-2017.03-SP2-3/include ' -Mldflags=" -Wl,-E,-rpath /usr/synopsys/vcs-mx/M-2017.03-SP2-3/linux64/lib " -Mout=simv -Mamsrun="" -Mvcsaceobjs="" -Mobjects=" " -Msaverestoreobj= -Mcrt0="" -Mcrtn="" -Mcsrc="" -Msyslibs="-lncurses -L/usr/X11R6/lib64 -lX11 -ldl -ldl "
+-Xvlogan=0x1  "register_bank_tb.sv"  +mixedhdl2    

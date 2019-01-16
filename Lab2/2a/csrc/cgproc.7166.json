@@ -1,0 +1,120 @@
+{
+    "Modules": {
+        "...MASTER...": {
+            "start_perf": [
+                0.28116106986999512,
+                0.064438999999999996,
+                0.087304999999999994,
+                223840,
+                235048,
+                1547581297.122577
+            ],
+            "end_perf": [
+                0.29179906845092773,
+                0.066169000000000006,
+                0.090982999999999994,
+                226284,
+                235048
+            ],
+            "nQuads": 0,
+            "nMops": 0
+        },
+        "std": {
+            "start_perf": [
+                0.29196310043334961,
+                0.066238000000000005,
+                0.091078000000000006,
+                226284,
+                235048,
+                1547581297.133379
+            ],
+            "Compiled": "Yes",
+            "nQuads": 218,
+            "Compiled Times": 13,
+            "end_perf": [
+                0.29815411567687988,
+                0.070365999999999998,
+                0.093131000000000005,
+                227320,
+                235048
+            ],
+            "nMops": 472
+        },
+        "test_bench": {
+            "start_perf": [
+                0.2982330322265625,
+                0.070400000000000004,
+                0.093176999999999996,
+                227320,
+                235048,
+                1547581297.1396489
+            ],
+            "Compiled": "Yes",
+            "nQuads": 95,
+            "Compiled Times": 13,
+            "end_perf": [
+                0.30514311790466309,
+                0.073360999999999996,
+                0.097126000000000004,
+                239056,
+                241108
+            ],
+            "nMops": 121
+        }
+    },
+    "CompUnits": {
+        "YMuFK_d": {
+            "mode": 4,
+            "mod": "test_bench",
+            "out": "YMuFK_d.o",
+            "bytes": 11247,
+            "checksum": 0,
+            "archive": "archive.12/_7166_archive_1.a"
+        }
+    },
+    "reusePaths": {
+        "amcQw_d": {
+            "icPath": "csrc"
+        },
+        "reYIK_d": {
+            "icPath": "csrc"
+        }
+    },
+    "stat": {
+        "ru_childs_end": {
+            "ru_maxrss_kb": 19124,
+            "ru_utime_sec": 0.0020709999999999999,
+            "ru_minflt": 606,
+            "ru_stime_sec": 0.0031059999999999998,
+            "ru_majflt": 0,
+            "ru_nvcsw": 1,
+            "ru_nivcsw": 2
+        },
+        "ru_self_end": {
+            "ru_maxrss_kb": 72552,
+            "ru_utime_sec": 0.077181,
+            "ru_minflt": 25055,
+            "ru_stime_sec": 0.101879,
+            "ru_majflt": 0,
+            "ru_nvcsw": 30,
+            "ru_nivcsw": 9
+        },
+        "peak_mem_kb": 241108
+    },
+    "ObjArchives": [
+        {
+            "size": 78931,
+            "archive": "archive.12/_7166_archive_1.a",
+            "objects": [
+                [
+                    "YMuFK_d.o",
+                    11247
+                ],
+                [
+                    "amcQwB.o",
+                    67684
+                ]
+            ]
+        }
+    ]
+}

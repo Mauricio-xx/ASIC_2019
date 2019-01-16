@@ -1,0 +1,17 @@
+
+VLOGAN	= vlogan
+VLOGAN_OPT	= -full64
+
+all :		_VCSgd_SGvYnd_1.db \
+	_VCSgd_F9K69_1.db \
+
+
+
+_VCSgd_SGvYnd_1.db :	mux4to1_tb.sv 
+		${VLOGAN}  ${VLOGAN_OPT} mux4to1_tb.sv
+
+
+_VCSgd_F9K69_1.db :	mux4to1.v 
+		${VLOGAN}  ${VLOGAN_OPT} mux4to1.v
+
+

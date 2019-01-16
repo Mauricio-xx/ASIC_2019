@@ -1,0 +1,50 @@
+$date
+	Tue Jan 15 16:41:39 2019
+$end
+
+$version
+	Synopsys VCS version M-2017.03-SP2-3_Full64
+$end
+
+$timescale
+	1ps
+$end
+
+$comment Csum: 1 0633fd1d133db6d6 $end
+
+
+$scope module test_bench $end
+$var reg 8 ! a [0:7] $end
+$var reg 8 " b [0:7] $end
+$var reg 8 # c [0:7] $end
+$var reg 8 $ d [0:7] $end
+$var reg 2 % sel [0:1] $end
+$var wire 8 & out [0:7] $end
+
+$scope module U1 $end
+$var wire 8 ' din1 [7:0] $end
+$var wire 8 ( din2 [7:0] $end
+$var wire 8 ) din3 [7:0] $end
+$var wire 8 * din4 [7:0] $end
+$var wire 2 + select [1:0] $end
+$var reg 8 & dout [7:0] $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+b00000011 &
+b10 +
+b00000100 *
+b00000011 )
+b00000010 (
+b00000001 '
+b10 %
+b00000100 $
+b00000011 #
+b00000010 "
+b00000001 !
+$end

@@ -1,0 +1,17 @@
+
+VLOGAN	= vlogan
+VLOGAN_OPT	= -full64
+
+all :		_VCSgd_SGvYnd_1.db \
+	_VCSgd_sDW8Dc_1.db \
+
+
+
+_VCSgd_SGvYnd_1.db :	register_bank_tb.sv 
+		${VLOGAN}  ${VLOGAN_OPT} register_bank_tb.sv
+
+
+_VCSgd_sDW8Dc_1.db :	register_bank.v 
+		${VLOGAN}  ${VLOGAN_OPT} register_bank.v
+
+

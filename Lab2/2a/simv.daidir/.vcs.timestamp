@@ -1,0 +1,118 @@
+0 
+22
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/usr/synopsys/vcs-mx/M-2017.03-SP2-3/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /usr/synopsys/vcs-mx/M-2017.03-SP2-3/linux64/lib/libvirsim.so /usr/synopsys/vcs-mx/M-2017.03-SP2-3/linux64/lib/liberrorinf.so /usr/synopsys/vcs-mx/M-2017.03-SP2-3/linux64/lib/libsnpsmalloc.so /usr/synopsys/vcs-mx/M-2017.03-SP2-3/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/usr/synopsys/vcs-mx/M-2017.03-SP2-3/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/usr/synopsys/vcs-mx/M-2017.03-SP2-3/include
+-gen_obj
+-picarchive
+-sverilog
+/usr/synopsys/vcs-mx/M-2017.03-SP2-3/linux64/bin/vcs1
+mux4to1.v
+mux4to1_tb.sv
+82
+sysc_uni_pwd=/home/user6/Mauricio/ASIC_2019/Lab2
+mraarch=linux_64
+installdir=/usr/synopsys/hspice/M-2017.03-SP2-4/hspice
+XSESSION_EXEC=xfce4-session
+XNLSPATH=/usr/synopsys/hercules/B-2008.09-SP5-HF4/lib-u/X11/nls
+XMODIFIERS=@im=none
+XKEYSYMDB=/usr/synopsys/hercules/B-2008.09-SP5-HF4/lib-u/X11/XKeysymDB
+XDG_SESSION_ID=2
+XDG_RUNTIME_DIR=/run/user/1011
+XDG_DATA_DIRS=/home/user6/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+XAUTHORITY=/home/user6/.Xauthority
+XARCH=linux64
+X2GO_SESSION=user6-52-1547485953_stDXFCE_dp32
+X2GO_AGENT_PID=6925
+VTE_VERSION=5202
+VMR_MODE_FLAG=32
+VCS_TARGET_ARCH=amd64
+VCS_MX_HOME_INTERNAL=1
+VCS_LIC_EXPIRE_WARNING=1
+VCS_HOME=/usr/synopsys/vcs-mx/M-2017.03-SP2-3
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH_OVERRIDE=linux
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/usr/synopsys/vcs-mx/M-2017.03-SP2-3/linux64
+TMIARCH=_64_64_64_64
+SYNOPSYS_SYSTYPE=AMD.64
+SYNOPSYS_SYN_ROOT=/usr/synopsys/syn/M-2016.12-SP5-3
+SYNOPSYS_LC_ROOT=/usr/synopsys/lc/M-2017.06-SP3-1
+STARTUP=/usr/bin/env LD_LIBRARY_PATH=/opt/synopsys/plat_linux_gcc52_64/3rd/lib:/opt/synopsys/plat_linux_gcc52_64/3rd/oa/lib/linux_rhel40_gcc52_64/opt:/opt/synopsys/plat_linux_gcc52_64/lib:/usr/synopsys/hspice/M-2017.03-SP2-4/hspice/linux64/interfaces:/opt/synopsys/plat_linux_gcc52_64/3rd/lib:/opt/synopsys/plat_linux_gcc52_64/3rd/oa/lib/linux_rhel40_gcc52_64/opt:/opt/synopsys/plat_linux_gcc52_64/lib:/usr/synopsys/hspice/M-2017.03-SP2-4/hspice/linux64/interfaces xfce4-session
+SSH_CONNECTION=172.40.2.147 49832 200.10.22.109 22
+SSH_CLIENT=172.40.2.147 49832 22
+SSH_AUTH_SOCK=/tmp/ssh-KYU0NtycVUTW/agent.7645
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SSH_AGENT_PID=8043
+SNPS_VCS_CLANG_PATH=/fs/src/interfaces/LLVM_Project/QSCM/opt/llvm-3.9.1/linux64
+SNPS_PLATFORM=linux64
+SNPS_64=1
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/7645,unix/unix:/tmp/.ICE-unix/7645
+SELINUX_USE_CURRENT_RANGE=
+SELINUX_ROLE_REQUESTED=
+SELINUX_LEVEL_REQUESTED=
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
+QT_IM_MODULE=xim
+QT_GRAPHICSSYSTEM_CHECKED=1
+QT_GRAPHICSSYSTEM=native
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+PYTHONPATH=/opt/synopsys/pylib:/opt/synopsys/plat_linux_gcc52_64/pyext:/opt/synopsys/plat_linux_gcc52_64/lib:.:/opt/synopsys/pylib:/opt/synopsys/plat_linux_gcc52_64/pyext:/opt/synopsys/plat_linux_gcc52_64/lib:.:/opt/synopsys/pylib:/opt/synopsys/plat_linux_gcc52_64/pyext:/opt/synopsys/plat_linux_gcc52_64/lib:.:/opt/synopsys/pylib:/opt/synopsys/plat_linux_gcc52_64/pyext:/opt/synopsys/plat_linux_gcc52_64/lib:.::/usr/synopsys/PDKs/ON_PDK/samples/pycells:/usr/synopsys/PDKs/ON_PDK/samples/pycells:/usr/synopsys/PDKs/ON_PDK/samples/pycells:/usr/synopsys/PDKs/ON_PDK/samples/pycells
+PYTHONHOME=/opt/synopsys/plat_linux_gcc52_64/3rd
+PULSE_CLIENTCONFIG=/home/user6/.x2go/C-user6-52-1547485953_stDXFCE_dp32/.pulse-client.conf
+PRIMEYIELD_INCLUDES=/usr/synopsys/icvalidator/M-2017.06-SP2-6/include
+PRIMEYIELD_HOME_DIR=/usr/synopsys/icvalidator/M-2017.06-SP2-6
+OVA_UUM=0
+ON_PDK=/usr/synopsys/PDKs/ON_PDK/
+OA_PLUGIN_PATH=/opt/synopsys/plat_linux_gcc52_64/3rd/oa/data/plugins:/opt/synopsys/quickstart:/opt/synopsys/plat_linux_gcc52_64/3rd/oa/data/plugins:/opt/synopsys/quickstart:/opt/synopsys/plat_linux_gcc52_64/3rd/oa/data/plugins:/opt/synopsys/quickstart:/opt/synopsys/plat_linux_gcc52_64/3rd/oa/data/plugins:/opt/synopsys/quickstart:
+LTL_HOME_DIR=/usr/synopsys/hercules/B-2008.09-SP5-HF4
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+KDEDIRS=/usr
+IMSETTINGS_MODULE=none
+IMSETTINGS_INTEGRATE_DESKTOP=yes
+ICV_HOME_DIR=/usr/synopsys/icvalidator/M-2017.06-SP2-6
+HSP_HOME=/usr/synopsys/hspice/M-2017.03-SP2-4/hspice
+HSP_GCC_VERSION=5.2.0
+HSP_GCC=/usr/synopsys/hspice/M-2017.03-SP2-4/hspice/GNU/linux64/gcc/bin/gcc -m64 
+HISTCONTROL=ignoredups
+HERCULES_HOME_DIR=/usr/synopsys/hercules/B-2008.09-SP5-HF4
+GTK_IM_MODULE=gtk-im-context-simple
+GPG_AGENT_INFO=/home/user6/.gnupg/S.gpg-agent:8125:1
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-tiZxXF2Gr1,guid=0c30fa04aa02ca9f1b51a2745c3cc30a
+COLORTERM=truecolor
+CNI_ROOT=/opt/synopsys
+CNI_LOG_DEFAULT=/dev/null
+CMIARCH=_64_64_64_64
+CDS_LOAD_ENV=CSF
+AVANTI_SYSTYPE=AMD.64
+ARCH=linux64
+0
+2
+1547580775 mux4to1.v
+1547581293 mux4to1_tb.sv
+5
+0 
+1512794728 /usr/synopsys/vcs-mx/M-2017.03-SP2-3/linux64/lib/libvirsim.so
+1512793971 /usr/synopsys/vcs-mx/M-2017.03-SP2-3/linux64/lib/liberrorinf.so
+1512793950 /usr/synopsys/vcs-mx/M-2017.03-SP2-3/linux64/lib/libsnpsmalloc.so
+1512794290 /usr/synopsys/vcs-mx/M-2017.03-SP2-3/linux64/lib/libvfs.so
+1547581297 simv.daidir

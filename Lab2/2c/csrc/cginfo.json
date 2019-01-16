@@ -1,0 +1,132 @@
+{
+    "MlibObjs": {},
+    "stat": {
+        "ru_self_cgstart": {
+            "ru_stime_sec": 0.068487999999999993,
+            "ru_utime_sec": 0.080754000000000006,
+            "ru_maxrss_kb": 64292,
+            "ru_majflt": 0,
+            "ru_minflt": 22115,
+            "ru_nvcsw": 28,
+            "ru_nivcsw": 7
+        },
+        "CodeGen(%)": 17.037539296061137,
+        "ru_childs_cgstart": {
+            "ru_stime_sec": 0.0,
+            "ru_utime_sec": 0.0,
+            "ru_maxrss_kb": 0,
+            "ru_majflt": 0,
+            "ru_minflt": 0,
+            "ru_nvcsw": 0,
+            "ru_nivcsw": 0
+        },
+        "mopSpeed": 76338.639652677331,
+        "nMops": 1266,
+        "mop/quad": 1.9240121580547112,
+        "nQuads": 658,
+        "ru_childs_end": {
+            "ru_stime_sec": 0.0042620000000000002,
+            "ru_utime_sec": 0.001065,
+            "ru_maxrss_kb": 19280,
+            "ru_majflt": 0,
+            "ru_minflt": 607,
+            "ru_nvcsw": 1,
+            "ru_nivcsw": 2
+        },
+        "ru_self_end": {
+            "ru_stime_sec": 0.085042999999999994,
+            "ru_utime_sec": 0.097337999999999994,
+            "ru_maxrss_kb": 73120,
+            "ru_majflt": 0,
+            "ru_minflt": 25233,
+            "ru_nvcsw": 29,
+            "ru_nivcsw": 10
+        },
+        "peak_mem_kb": 242152,
+        "totalObjSize": 83110,
+        "quadSpeed": 39676.796912686958,
+        "outputSizePerQuad": 126.30699088145897,
+        "Frontend(%)": 82.962460703938859
+    },
+    "PrevCompiledModules": {
+        "std": {
+            "reYIK_d": {
+                "bytes": 33456,
+                "mod": "std",
+                "mode": 4,
+                "out": "reYIK_d.o",
+                "checksum": 0,
+                "archive": "archive.3/_prev_archive_1.a"
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "bytes": 7569,
+                "mod": "...MASTER...",
+                "mode": 4,
+                "out": "objs/amcQw_d.o",
+                "checksum": 0
+            }
+        },
+        "test_bench": {
+            "YMuFK_d": {
+                "bytes": 15555,
+                "mod": "test_bench",
+                "checksum": 0,
+                "out": "YMuFK_d.o",
+                "mode": 4,
+                "archive": "archive.3/_7013_archive_1.a"
+            }
+        }
+    },
+    "CompileProcesses": [
+        "cgproc.7013.json"
+    ],
+    "CurCompileModules": [
+        "...MASTER...",
+        "std",
+        "test_bench",
+        "test_bench"
+    ],
+    "NameTable": {
+        "std": [
+            "std",
+            "reYIK",
+            "module",
+            1
+        ],
+        "test_bench": [
+            "test_bench",
+            "YMuFK",
+            "module",
+            2
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module",
+            3
+        ]
+    },
+    "CompileStrategy": "fullobj",
+    "CurCompileUdps": {},
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 67605,
+        "archive": "archive.3/_7013_archive_1.a"
+    },
+    "LVLData": [
+        "SIM"
+    ],
+    "PEModules": [],
+    "Misc": {
+        "cwd": "/home/user6/Mauricio/ASIC_2019/Lab2/2c",
+        "csrc": "csrc",
+        "default_output_dir": "csrc",
+        "csrc_abs": "/home/user6/Mauricio/ASIC_2019/Lab2/2c/csrc",
+        "daidir": "simv.daidir",
+        "daidir_abs": "/home/user6/Mauricio/ASIC_2019/Lab2/2c/simv.daidir",
+        "archive_dir": "archive.3"
+    },
+    "CompileStatus": "Successful"
+}

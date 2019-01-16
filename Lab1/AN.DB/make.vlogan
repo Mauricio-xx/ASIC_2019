@@ -1,0 +1,12 @@
+
+VLOGAN	= vlogan
+VLOGAN_OPT	= -full64
+
+all :		_VCSgd_tHFCZb_1.db \
+
+
+
+_VCSgd_tHFCZb_1.db :	OneBitAdder.v 
+		${VLOGAN}  ${VLOGAN_OPT} OneBitAdder.v
+
+
