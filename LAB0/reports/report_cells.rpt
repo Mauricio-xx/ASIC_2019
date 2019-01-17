@@ -1,0 +1,25 @@
+ 
+****************************************
+Report : cell
+Design : fulladder
+Version: M-2016.12-SP5-3
+Date   : Wed Jan 16 15:09:26 2019
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+C21                       GTECH_XOR2      gtech           0.000000  u
+C22                       GTECH_AND2      gtech           0.000000  u
+C23                       GTECH_AND2      gtech           0.000000  u
+C24                       GTECH_XOR2      gtech           0.000000  u
+C25                       GTECH_OR2       gtech           0.000000  u
+--------------------------------------------------------------------------------
+Total 5 cells                                             0.000000
+1

@@ -1,0 +1,196 @@
+
+                           Design Compiler Graphical 
+                                 DC Ultra (TM)
+                                  DFTMAX (TM)
+                              Power Compiler (TM)
+                                 DesignWare (R)
+                                 DC Expert (TM)
+                               Design Vision (TM)
+                               HDL Compiler (TM)
+                               VHDL Compiler (TM)
+                                  DFT Compiler
+                               Design Compiler(R)
+
+              Version M-2016.12-SP5-3 for linux64 - Dec 07, 2017 
+
+                    Copyright (c) 1988 - 2017 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+Initializing...
+Initializing gui preferences from file  /home/user6/.synopsys_dv_prefs.tcl
+# Logic library setup
+set search_path ". ./libs/ ./rtl_reference"
+. ./libs/ ./rtl_reference
+set target_library "nldm_op_cond_typ.db"
+nldm_op_cond_typ.db
+set link_library "* $target_library"
+* nldm_op_cond_typ.db
+# RTL reading
+analyze -format verilog {regbank.v muxed_regbank.v control.v alu.v top.v}	
+Running PRESTO HDLC
+Compiling source file ./rtl_reference/regbank.v
+Compiling source file ./rtl_reference/muxed_regbank.v
+Compiling source file ./rtl_reference/control.v
+Compiling source file ./rtl_reference/alu.v
+Compiling source file ./rtl_reference/top.v
+Warning:  ./rtl_reference/top.v:108: the undeclared symbol 'alu_negative' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  ./rtl_reference/top.v:109: the undeclared symbol 'alu_zero' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  ./rtl_reference/top.v:110: the undeclared symbol 'alu_error' assumed to have the default net type, which is 'wire'. (VER-936)
+Presto compilation completed successfully.
+Loading db file '/home/user6/Mauricio/LAB1/libs/nldm_op_cond_typ.db'
+1
+elaborate top -parameters "WIDTH = 8"
+Loading db file '/usr/synopsys/syn/M-2016.12-SP5-3/libraries/syn/gtech.db'
+Loading db file '/usr/synopsys/syn/M-2016.12-SP5-3/libraries/syn/standard.sldb'
+  Loading link library 'op_cond_typ'
+  Loading link library 'gtech'
+Running PRESTO HDLC
+Presto compilation completed successfully.
+Elaborated 1 design.
+Current design is now 'top_WIDTH8'.
+Information: Building the design 'register_bank' instantiated from design 'top_WIDTH8' with
+	the parameters "WIDTH=6". (HDL-193)
+
+Inferred memory devices in process
+	in routine register_bank_WIDTH6 line 11 in file
+		'./rtl_reference/regbank.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      dout_reg       | Flip-flop |   6   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'mux4_register_bank' instantiated from design 'top_WIDTH8' with
+	the parameters "WIDTH=8". (HDL-193)
+
+Statistics for case statements in always block at line 29 in file
+	'./rtl_reference/muxed_regbank.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            30            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine mux4_register_bank_WIDTH8 line 22 in file
+		'./rtl_reference/muxed_regbank.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      dout_reg       | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'control' instantiated from design 'top_WIDTH8' with
+	the parameters "WIDTH=8,NOPS=4". (HDL-193)
+
+Statistics for case statements in always block at line 41 in file
+	'./rtl_reference/control.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            48            |     no/auto      |
+===============================================
+
+Inferred memory devices in process
+	in routine control_WIDTH8_NOPS4 line 34 in file
+		'./rtl_reference/control.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  current_state_reg  | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'alu' instantiated from design 'top_WIDTH8' with
+	the parameters "WIDTH=8,NOPS=4". (HDL-193)
+Warning:  ./rtl_reference/alu.v:44: signed to unsigned part selection occurs. (VER-318)
+Warning:  ./rtl_reference/alu.v:45: signed to unsigned part selection occurs. (VER-318)
+
+Statistics for case statements in always block at line 26 in file
+	'./rtl_reference/alu.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            28            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'register_bank' instantiated from design 'top_WIDTH8' with
+	the parameters "WIDTH=18". (HDL-193)
+
+Inferred memory devices in process
+	in routine register_bank_WIDTH18 line 11 in file
+		'./rtl_reference/regbank.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      dout_reg       | Flip-flop |  18   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+1
+link
+
+  Linking design 'top_WIDTH8'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  * (6 designs)               /home/user6/Mauricio/LAB1/top_WIDTH8.db, etc
+  op_cond_typ (library)       /home/user6/Mauricio/LAB1/libs/nldm_op_cond_typ.db
+
+1
+#Constrains setup
+set clk_val 30
+30
+create_clock -period $clk_val [get_ports clk*] -name clk
+1
+set_clock_uncertainty -setup [expr $clk_val*0.1] [get_clocks clk*]
+1
+set_clock_transition -max [expr $clk_val*0.2] [get_clocks clk*]
+1
+set_clock_latency -source [expr $clk_val*0.05] [get_clocks clk*]
+1
+set_input_delay -max [expr $clk_val*0.4] -clock clk [all_input[remove_from_collection[all_clocks]]]
+Error: unknown command 'remove_from_collection_sel5' (CMD-005)
+set_output_delay -max [expr $clk_val*0.5] -clock clk [get_ports [all_outputs]]
+1
+set_load -max 0.04 [get_ports[all_outputs]] #capacitor C in Farad [F]
+Error: unknown command 'get_ports_sel8' (CMD-005)
+set_input_transition -min [expr $clk_val*0.01] [get_ports [all_inputs]]
+1
+set_input_transition -max [expr $clk_val*0.1] [get_ports [all_inputs]]
+1
+# Pre-compile reports                                                
+report_clock > ./reports/report_clock.rpt
+analyze_datapath_extraction > ./reports/analyze_datapath_extraction.rpt
+#Compile
+comile_ultra -no_autogroup
+Error: unknown command 'comile_ultra' (CMD-005)
+# Post-compile reports
+analyze_datapath > ./reports/analyze_datapath.rpt
+report_resources -hier > ./reports/report_resources.rpt
+report_qor > ./reports/report_qor.rpt
+report_area > ./reports/report_power.rpt
+report_qor > ./reports/report_area.rpt
+report_timing > ./reports/report_timing.rpt
+start_gui
+Current design is 'top_WIDTH8'.
+4.1
+# Save design
+write_file -format ddc -hierarchy -out outputs/lab1_file.ddc
+Writing ddc file 'outputs/lab1_file.ddc'.
+1
+write_file -format verilog -hier -out outputs/lab1_file.v
+Writing verilog file '/home/user6/Mauricio/LAB1/outputs/lab1_file.v'.
+Warning: Module register_bank_WIDTH6 contains unmapped components.  The output netlist might not be read back into the system. (VO-12)
+Warning: Module mux4_register_bank_WIDTH8 contains unmapped components.  The output netlist might not be read back into the system. (VO-12)
+Warning: Verilog 'assign' or 'tran' statements are written out. (VO-4)
+Warning: Module control_WIDTH8_NOPS4 contains unmapped components.  The output netlist might not be read back into the system. (VO-12)
+Warning: Module alu_WIDTH8_NOPS4 contains unmapped components.  The output netlist might not be read back into the system. (VO-12)
+Warning: Module register_bank_WIDTH18 contains unmapped components.  The output netlist might not be read back into the system. (VO-12)
+1
+write_sdc outputs/lab1_file.sdc
+1
+#write_file -format verilog
+# Exit
+exit
+
+Thank you...

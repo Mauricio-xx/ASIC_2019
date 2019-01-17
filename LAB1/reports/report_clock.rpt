@@ -1,0 +1,21 @@
+Information: Updating graph... (UID-83)
+ 
+****************************************
+Report : clocks
+Design : top_WIDTH8
+Version: M-2016.12-SP5-3
+Date   : Thu Jan 17 01:23:27 2019
+****************************************
+
+Attributes:
+    d - dont_touch_network
+    f - fix_hold
+    p - propagated_clock
+    G - generated_clock
+    g - lib_generated_clock
+
+Clock          Period   Waveform            Attrs     Sources
+--------------------------------------------------------------------------------
+clk             30.00   {0 15}                        {clk[0]}
+--------------------------------------------------------------------------------
+1

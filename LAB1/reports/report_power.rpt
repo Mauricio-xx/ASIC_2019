@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : top_WIDTH8
+Version: M-2016.12-SP5-3
+Date   : Thu Jan 17 01:24:21 2019
+****************************************
+
+Library(s) Used:
+
+    op_cond_typ (File: /home/user6/Mauricio/LAB1/libs/nldm_op_cond_typ.db)
+
+Number of ports:                          257
+Number of nets:                          2062
+Number of cells:                         1815
+Number of combinational cells:           1765
+Number of sequential cells:                44
+Number of macros/black boxes:               0
+Number of buf/inv:                        659
+Number of references:                      10
+
+Combinational area:             226686.304520
+Buf/Inv area:                    56108.161240
+Noncombinational area:           22227.840149
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                248914.144669
+Total area:                 undefined
+1
