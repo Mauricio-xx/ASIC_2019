@@ -1,0 +1,34 @@
+Current design is 'top_WIDTH8'.
+Current design is 'top_WIDTH8'.
+
+***************************************************
+Estimate of Datapath Content
+
+Extracted Datapath:    area =   6.6%,  parts =   2
+Singleton Datapath:    area =  39.3%,  parts =   3
+
+Total Datapath:        area =  45.9%,  parts =   5
+
+***************************************************
+
+Estimate of Datapath Types
+
+
+Singletons:
+                        out width
+  component     count   min   max     ave
+  ----------------------------------------
+  DW01_inc          1     9     9     9.0
+  DW_div_tc         1     9     9     9.0
+  DW_mult_tc        1    16    16    16.0
+  DW_leftsh         1     4     4     4.0
+  ----------------------------------------
+
+
+Extracted Datapaths:
+                        out width
+  operation     count   min   max     ave
+  ----------------------------------------
+  + -               2     9     9     9.0
+
+***************************************************

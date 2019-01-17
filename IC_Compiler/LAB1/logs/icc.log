@@ -1,0 +1,73 @@
+
+                                IC Compiler (TM)
+                              IC Compiler-PC (TM)
+                              IC Compiler-XP (TM)
+                              IC Compiler-DP (TM)
+                              IC Compiler-AG (TM)
+
+                Version O-2018.06-SP3 for linux64 - Oct 18, 2018
+
+                    Copyright (c) 1988 - 2018 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+Initializing...
+Initializing gui preferences from file  /u/ronaldv/.synopsys_icc_prefs.tcl
+icc_shell> start_gui
+icc_shell>  + VUE INFO: Please click Verification->Hercules VUE in LayoutWindow menu
+to launch VUE.
+
+ + VUE INFO: Found a usable port: 2345
+
+Information: Loaded Hercules extension from /global/apps3/hercules_2008.09-SP5-4 (GUI-024)
+Information: Visibility is turned ON for cells and cell contents because the task is set to Block Implementation (GUI-026)
+icc_shell> open_mw_lib /remote/us01home40/ronaldv/EAMTA22/Lab04_Mie/BE/LAB1/MW_DTMF_LIB
+{MW_DTMF_LIB}
+icc_shell> ::iccGUI::open_mw_cel  DTMF_postPlaceOPT
+open_mw_cel DTMF_postPlaceOPT
+Preparing data for query................... 
+Warning: No valid link library found; check the link_library variable. (IFS-008)
+Information: Opened "DTMF_postPlaceOPT.CEL;1" from "/remote/us01home40/ronaldv/EAMTA22/Lab04_Mie/BE/LAB1/MW_DTMF_LIB" library. (MWUI-068)
+{DTMF_postPlaceOPT}
+icc_shell> icc_shell> conec[K[Kn
+connect_logic_net    connect_net          connect_pin          connect_power_switch connect_spare_diode  connect_supply_net   connect_tie_cells    
+icc_shell> connect_c[K-g[K[K[K[K[K[K[K[K[K[Kprerou
+preroute_focal_opt      preroute_instances      preroute_standard_cells 
+icc_shell> preroute_standard_cells 
+Using [2 x 2] Fat Wire Table for via
+Using [2 x 2] Fat Wire Table for via2
+**** WARNING:duplicate Fat Wire Via found for layer[metal1]
+
+**** WARNING:duplicate Fat Wire Via found for layer[metal2]
+
+Prerouting standard cells horizontally: 
+ [10.68%]  
+ [21.52%]  
+ [32.00%]  
+ [42.88%]  
+ [53.07%]  
+ [64.42%]  
+ [76.83%]  
+ [87.40%]  
+ [97.74%]  
+ [100.00%] [done] 
+WARNING: 234 rail segments curtailed due to DRC errors
+WARNING: 415 floating rail segments 
+
+[Prerouter] CPU = 00:00:00, Elapsed = 00:00:00
+	Peak Memory =      196M Data =       23M
+1
+icc_shell> save_mw_cel  -design "DTMF_postPlaceOPT.CEL;1"
+Information: Performing CEL netlist consistency check. (MWDC-118)
+Information: CEL consistency check PASSED. (MWDC-119)
+Information: Saved design named DTMF_postPlaceOPT.CEL;1. (UIG-5)
+icc_shell> exit
+Updating preference file: /u/ronaldv/.synopsys_icc_prefs.tcl
+
+Memory usage for main task 207 Mbytes.
+Memory usage for this session 207 Mbytes.
+CPU usage for this session 27 seconds ( 0.01 hours ).
+
+Thank you...
+Exit IC Compiler!

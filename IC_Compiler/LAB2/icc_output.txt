@@ -1,0 +1,275 @@
+Initializing gui preferences from file  /home/user6/.synopsys_icc_prefs.tcl
+icc_shell> source scripts/setup.tcl -echo
+set target_library "c5n_utah_std_v5_t27.db"
+set link_library "* $target_library c5n_utah_std_v5_t27.db io.db"
+set search_path "./MW ./logic ./scripts ./inputs/"
+set mw_reference_libraries "./MW/UTAH_V1P1 ./MW/ICG ./MW/IO"
+set TECH_FILE "./MW/UTAH.tf"
+set TLUPLUS_MAX_FILE "./MW/ami500.tluplus"
+set TLUPLUS_MIN_FILE "./MW/ami500.tluplus"
+set MAP_FILE "./MW/ami500hxkx_3m.map"; #map file
+set mw_design_library MW_TOP_LIB 
+set mw_reference_library "./MW/UTAH_V1P1 ./MW/ICG ./MW/IO"
+#
+sh rm -rf $mw_design_library
+#
+set mw_use_layer_enhancement true
+create_mw_lib  -technology $TECH_FILE          -mw_reference_library $mw_reference_library              $mw_design_library
+Start to load technology file ./MW/UTAH.tf.
+Warning: Layer 'metal1' is missing the attribute 'minArea'. (line 108) (TFCHK-012)
+Warning: Layer 'metal2' is missing the attribute 'minArea'. (line 160) (TFCHK-012)
+Warning: Layer 'metal3' is missing the attribute 'minArea'. (line 212) (TFCHK-012)
+Information: ContactCode 'RVC0' has a minimum cut spacing 0.6 that is less than the cut layer minimum spacing 0.9. (line 376) (TFCHK-072)
+Warning: Layer 'metal1' has a pitch 3 that does not match the recommended wire-to-via pitch 1.95. (TFCHK-049)
+Warning: Layer 'metal2' has a pitch 2.4 that does not match the recommended wire-to-via pitch 1.95. (TFCHK-049)
+Warning: Layer 'metal3' has a pitch 3 that does not match the recommended wire-to-via pitch 2.55. (TFCHK-049)
+Warning: Layer 'metal2' has a pitch 2.4 that does not match the doubled pitch 3 or tripled pitch 4.5. (TFCHK-050)
+Warning: Layer 'metal3' has a pitch 3 that does not match the doubled pitch 6 or tripled pitch 9. (TFCHK-050)
+Warning: CapModel sections are missing. Capacitance models should be loaded with a TLU+ file later. (TFCHK-084)
+Technology file ./MW/UTAH.tf has been loaded successfully.
+open_mw_lib $mw_design_library
+check_library
+Warning: Duplicate library /home/user6/Mauricio/ASIC_2019/IC_Compiler/LAB2/logic/c5n_utah_std_v5_t27.db specified.
+
+#BEGIN_XCHECK_LIBRARY
+
+Logic Library #1:
+    Library name              c5n_utah_std_v5_t27
+    File name                 /home/user6/Mauricio/ASIC_2019/IC_Compiler/LAB2/logic/c5n_utah_std_v5_t27.db
+    Library type              pg_pin based db
+    Library Version           Not Specified
+    Tool Created              I-2013.12-SP5
+    Data Created              Not Specified
+    Time unit                 1ns
+    Capacitance unit          1000ff
+    Leakage power unit        1nW
+    Current unit              1uA
+check_library options         
+Version                       M-2017.06-SP3-1
+Check date and time           Thu Jan 17 17:32:37 2019
+
+
+#BEGIN_LIBSCREEN_UPF
+
+Library#1 (c5n_utah_std_v5_t27):
+Information: There are more than 1 operating_conditions defined in the library. (LBDB-672)
+PG checking passed.
+No power management cells in library#1.
+
+#END_LIBSCREEN_UPF
+
+#BEGIN_XCHECK_LOGICCELLS
+
+
+#END_XCHECK_LOGICCELLS
+
+#BEGIN_XCHECK_LOGICPINS
+
+
+
+#END_XCHECK_LOGICPINS
+
+#BEGIN_XCHECK_LOGICPGPINS
+
+Number of cells missing pg_pins in library 1:   0 (out of 33)
+
+#END_XCHECK_LOGICPGPINS
+
+#BEGIN_XCHECK_ARCS
+
+
+#END_XCHECK_ARCS
+
+
+#END_XCHECK_LIBRARY
+
+Checking library or object io ...
+
+#BEGIN_XCHECK_LIBRARY
+
+Logic Library #1:
+    Library name              io
+    File name                 /home/user6/Mauricio/ASIC_2019/IC_Compiler/LAB2/logic/io.db
+    Library type              pg_pin based db
+    Library Version           Not Specified
+    Tool Created              H-2013.03-SP5-5
+    Data Created              Not Specified
+    Time unit                 1ns
+    Capacitance unit          1000ff
+    Current unit              1uA
+check_library options         
+Version                       M-2017.06-SP3-1
+Check date and time           Thu Jan 17 17:32:37 2019
+
+
+#BEGIN_LIBSCREEN_UPF
+
+Library#1 (io):
+PG checking passed.
+No power management cells in library#1.
+
+#END_LIBSCREEN_UPF
+
+
+Information: List of cell classification (LIBCHK-312)
+------------------------------------------------------------------------------
+Library name                io(lib#1)
+------------------------------------------------------------------------------
+Total number                  1
+Inverter                      0
+Buffer                        0
+Level shifter                 0
+Differential level shifter    0
+Isolation cell                0
+Clock Isolation cell          0
+Retention cell                0
+Switch cell                   0
+Always on cell                0
+------------------------------------------------------------------------------
+#BEGIN_XCHECK_LOGICCELLS
+
+
+#END_XCHECK_LOGICCELLS
+
+#BEGIN_XCHECK_LOGICPINS
+
+
+
+#END_XCHECK_LOGICPINS
+
+#BEGIN_XCHECK_LOGICPGPINS
+
+Number of cells missing pg_pins in library 1:   0 (out of 1)
+
+#END_XCHECK_LOGICPGPINS
+
+#BEGIN_XCHECK_ARCS
+
+
+#END_XCHECK_ARCS
+
+
+#END_XCHECK_LIBRARY
+
+Memory usage for this session 17 Mbytes.
+CPU usage for this session 0 seconds ( 0.00 hours ).
+
+Thank you...
+Warning: Duplicate library /home/user6/Mauricio/ASIC_2019/IC_Compiler/LAB2/logic/c5n_utah_std_v5_t27.db specified.
+
+#BEGIN_XCHECK_LIBRARY
+
+Logic Library:    c5n_utah_std_v5_t27 
+                  io 
+Physical Library: ./MW/UTAH_V1P1 
+                  ./MW/ICG 
+                  ./MW/IO 
+check_library options:  
+Version:                                M-2016.12-SP5-3
+Check date and time:    Thu Jan 17 17:32:37 2019
+
+          List of logic library and file names
+------------------------------------------------------------------------------
+Logic library name           Logic library file name
+------------------------------------------------------------------------------
+c5n_utah_std_v5_t27          /home/user6/Mauricio/ASIC_2019/IC_Compiler/LAB2/logic/c5n_utah_std_v5_t27.db
+io                           /home/user6/Mauricio/ASIC_2019/IC_Compiler/LAB2/logic/io.db
+------------------------------------------------------------------------------
+
+#BEGIN_XCHECK_LOGICCELLS
+
+Number of cells missing in logic library:       3 (out of 34)
+
+Information: List of cells missing in logic library (LIBCHK-210)
+-------------------------------------------------------------------------
+Cell name                  Cell type             Physical library
+-------------------------------------------------------------------------
+ICG_DYN                    Core                  ICG
+AND2X1                     Core                  ICG
+OR2X1                      Core                  ICG
+-------------------------------------------------------------------------
+
+Information: List of physical only cells (LIBCHK-119)
+-------------------------------------------------------------------------
+Cell name                  Cell type             Physical library
+-------------------------------------------------------------------------
+FILL4                      PGPinOnly             UTAH_V1P1
+FILL                       PGPinOnly             UTAH_V1P1
+FILL2                      PGPinOnly             UTAH_V1P1
+FILL8                      PGPinOnly             UTAH_V1P1
+Pad_Corner_New             CornerPad             IO
+pad_gnd                    PGPinOnly             IO
+pad_space27                Filler                IO
+pad_space43_2              Filler                IO
+pad_space78_3              Filler                IO
+pad_vdd                    PGPinOnly             IO
+cornerUR                   CornerPad             IO
+cornerBR                   CornerPad             IO
+cornerBL                   CornerPad             IO
+cornerUL                   CornerPad             IO
+-------------------------------------------------------------------------
+
+#END_XCHECK_LOGICCELLS
+
+#BEGIN_XCHECK_PHYSICALCELLS
+
+Number of cells missing in physical library:    0 (out of 51)
+
+#END_XCHECK_PHYSICALCELLS
+
+#BEGIN_XCHECK_PINS
+
+Number of cells with missing or mismatched pins in libraries:   1
+
+Error: List of pins mismatched in logic and physical libraries (LIBCHK-213)
+Logic library:    io
+Physical library: ./MW/IO
+-----------------------------------------------------------------------------------
+                                          Pin direction           Pin type
+Cell name                    Pin name    Logic   Physical     Logic         Physical
+-----------------------------------------------------------------------------------
+pad_bidirhe                  pad         inout   Input/Output undefined     analog
+-----------------------------------------------------------------------------------
+
+#END_XCHECK_PINS
+
+#BEGIN_XCHECK_CELLANTENNADIODETYPE
+
+Number of cells with inconsistent antenna_diode_type:   0
+
+#END_XCHECK_CELLANTENNADIODETYPE
+
+Logic vs. physical library check summary:
+Number of cells missing in logic library:       3 
+Number of cells with missing or mismatched pins in libraries:   1
+Information: Logic library is INCONSISTENT with physical library (LIBCHK-220)
+
+#END_XCHECK_LIBRARY
+
+#
+set_tlu_plus_files -max_tluplus $TLUPLUS_MAX_FILE                   -min_tluplus $TLUPLUS_MIN_FILE                  -tech2itf_map $MAP_FILE
+check_tlu_plus_files
+
+Sanity check for TLU+ vs MW-Tech files:
+ max_tlu+: ./MW/ami500.tluplus
+ min_tlu+: ./MW/ami500.tluplus
+ mapping_file: ./MW/ami500hxkx_3m.map
+ max_emul_tlu+: **NONE**
+ min_emul_tlu+: **NONE**
+ MW design lib: MW_TOP_LIB
+
+--------- Sanity Check on TLUPlus Files -------------
+1. Checking the conducting layer names in ITF and mapping file ... 
+[ Passed! ]
+2. Checking the via layer names in ITF and mapping file ... 
+[ Passed! ]
+3. Checking the consistency of Min Width and Min Spacing between MW-tech and ITF ... 
+Warning: minSpacing value of layer "metal1" (metal1) does not match : ITF (0.600) vs MW-tech (0.900). (TLUP-005)
+Warning: minWidth value of layer "metal1" (metal1) does not match : ITF (0.600) vs MW-tech (0.900). (TLUP-004)
+Warning: minSpacing value of layer "metal2" (metal2) does not match : ITF (0.700) vs MW-tech (0.900). (TLUP-005)
+Warning: minWidth value of layer "metal2" (metal2) does not match : ITF (0.700) vs MW-tech (0.900). (TLUP-004)
+Warning: minSpacing value of layer "metal3" (metal3) does not match : ITF (0.700) vs MW-tech (0.900). (TLUP-005)
+Warning: minWidth value of layer "metal3" (metal3) does not match : ITF (0.800) vs MW-tech (1.500). (TLUP-004)
+----------------- Check Ends ------------------
+1
+icc_shell> 

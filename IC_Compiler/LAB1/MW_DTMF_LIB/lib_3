@@ -1,0 +1,177 @@
+$ 
+$$$$ Combo ITF $$$$
+$ 
+$ Cap Unit: 1e-12 F
+$ Res Unit: 1000 ohm
+$ 
+$ 
+$$ begin_min_ITF
+
+$
+$ TimeStamp: Thu Oct  9 22:42:56 2003
+$grdgenxo version: U-2003.09                
+$grd_ver 31
+
+
+$begin $planar view
+$technology ami500hxkx_3m 
+$	AIR	6	1
+$	PANT	0.5	7.5
+$	PAOX	1.2	4
+$	metal3	0.77	4
+$	IMD2	1.1	4
+$	metal2	0.57	4
+$	IMD1	1.1	4
+$	metal1	0.64	4
+$	BPSGb	0.096	4
+$	poly2	0.25	4
+$	BPSGa	0.039	4
+$	poly	0.35	4
+$	FOXa	0.0135	3.9
+$	OD	0.3	3.9
+$	FOXb	0.0965	3.9
+$$/*	 layer 	min_width	min_space*/
+$	metal3	0.8	0.7
+$	metal2	0.7	0.7
+$	metal1	0.6	0.6
+$	poly2	2	0.8
+$	poly	0.6	0.6
+$	OD	0.5	0.9
+$end $planar view
+$echoing ITF file 
+
+$ C5E star-rcxt itf
+$
+$$ $Id: ami500hxkx_3m.itf,v 1.1 2003/10/09 23:49:39 jiliu Exp $
+$$ $Source: /home/jiliu/CVS/ami500hxkx/star/ami500hxkx_3m.itf,v $
+$$ $Log: ami500hxkx_3m.itf,v $
+$$ Revision 1.1  2003/10/09 23:49:39  jiliu
+$$ 10/09/03 jiliu   Verified against web design rules
+$$
+$$ 08/16/2002 jiliu 	Original release
+$
+TECHNOLOGY = ami500hxkx_3m
+$
+DIELECTRIC AIR    { THICKNESS=6.000 ER=1.0 }
+DIELECTRIC PANT   { THICKNESS=0.500 ER=7.5 }
+DIELECTRIC PAOX   { THICKNESS=1.970 ER=4.0 }
+CONDUCTOR  metal3 { THICKNESS=0.770 WMIN=0.80 SMIN=0.70 RPSQ=0.040 }
+DIELECTRIC IMD2   { THICKNESS=1.670 ER=4.0 }
+CONDUCTOR  metal2 { THICKNESS=0.570 WMIN=0.70 SMIN=0.70 RPSQ=0.085 }
+DIELECTRIC IMD1   { THICKNESS=1.740 ER=4.0 } 
+CONDUCTOR  metal1 { THICKNESS=0.640 WMIN=0.60 SMIN=0.60 RPSQ=0.085 }
+DIELECTRIC BPSGb  { THICKNESS=0.346 ER=4.0 }
+CONDUCTOR  poly2  { THICKNESS=0.250 WMIN=2.0 SMIN= 0.80 RPSQ=50.0 }
+DIELECTRIC BPSGa  { THICKNESS=0.389 ER=4.0 }
+CONDUCTOR  poly   { THICKNESS=0.35 WMIN=0.60 SMIN= 0.60 RPSQ=30.0 }
+DIELECTRIC FOXa   { THICKNESS=0.3135 ER=3.9 } 
+CONDUCTOR  OD	  { THICKNESS=0.30 WMIN=0.50 SMIN=0.90 RPSQ=90 }
+DIELECTRIC FOXb   { THICKNESS=0.0965 ER=3.9 }
+$
+VIA odCont  { FROM=OD TO=metal1 AREA=0.25 RPV=100 }
+VIA polyCont { FROM=poly  TO=metal1  AREA=0.25 RPV=7 }
+VIA via1 { FROM=metal1  TO=metal2  AREA=0.25 RPV=1.0 }
+VIA via2 { FROM=metal2  TO=metal3  AREA=0.25 RPV=1.0 }
+$
+$
+$
+$ **** end of itf file 
+
+
+
+$$ end_min_ITF
+$ 
+$$ begin_max_ITF
+
+$
+$ TimeStamp: Thu Oct  9 22:42:56 2003
+$grdgenxo version: U-2003.09                
+$grd_ver 31
+
+
+$begin $planar view
+$technology ami500hxkx_3m 
+$	AIR	6	1
+$	PANT	0.5	7.5
+$	PAOX	1.2	4
+$	metal3	0.77	4
+$	IMD2	1.1	4
+$	metal2	0.57	4
+$	IMD1	1.1	4
+$	metal1	0.64	4
+$	BPSGb	0.096	4
+$	poly2	0.25	4
+$	BPSGa	0.039	4
+$	poly	0.35	4
+$	FOXa	0.0135	3.9
+$	OD	0.3	3.9
+$	FOXb	0.0965	3.9
+$$/*	 layer 	min_width	min_space*/
+$	metal3	0.8	0.7
+$	metal2	0.7	0.7
+$	metal1	0.6	0.6
+$	poly2	2	0.8
+$	poly	0.6	0.6
+$	OD	0.5	0.9
+$end $planar view
+$echoing ITF file 
+
+$ C5E star-rcxt itf
+$
+$$ $Id: ami500hxkx_3m.itf,v 1.1 2003/10/09 23:49:39 jiliu Exp $
+$$ $Source: /home/jiliu/CVS/ami500hxkx/star/ami500hxkx_3m.itf,v $
+$$ $Log: ami500hxkx_3m.itf,v $
+$$ Revision 1.1  2003/10/09 23:49:39  jiliu
+$$ 10/09/03 jiliu   Verified against web design rules
+$$
+$$ 08/16/2002 jiliu 	Original release
+$
+TECHNOLOGY = ami500hxkx_3m
+$
+DIELECTRIC AIR    { THICKNESS=6.000 ER=1.0 }
+DIELECTRIC PANT   { THICKNESS=0.500 ER=7.5 }
+DIELECTRIC PAOX   { THICKNESS=1.970 ER=4.0 }
+CONDUCTOR  metal3 { THICKNESS=0.770 WMIN=0.80 SMIN=0.70 RPSQ=0.040 }
+DIELECTRIC IMD2   { THICKNESS=1.670 ER=4.0 }
+CONDUCTOR  metal2 { THICKNESS=0.570 WMIN=0.70 SMIN=0.70 RPSQ=0.085 }
+DIELECTRIC IMD1   { THICKNESS=1.740 ER=4.0 } 
+CONDUCTOR  metal1 { THICKNESS=0.640 WMIN=0.60 SMIN=0.60 RPSQ=0.085 }
+DIELECTRIC BPSGb  { THICKNESS=0.346 ER=4.0 }
+CONDUCTOR  poly2  { THICKNESS=0.250 WMIN=2.0 SMIN= 0.80 RPSQ=50.0 }
+DIELECTRIC BPSGa  { THICKNESS=0.389 ER=4.0 }
+CONDUCTOR  poly   { THICKNESS=0.35 WMIN=0.60 SMIN= 0.60 RPSQ=30.0 }
+DIELECTRIC FOXa   { THICKNESS=0.3135 ER=3.9 } 
+CONDUCTOR  OD	  { THICKNESS=0.30 WMIN=0.50 SMIN=0.90 RPSQ=90 }
+DIELECTRIC FOXb   { THICKNESS=0.0965 ER=3.9 }
+$
+VIA odCont  { FROM=OD TO=metal1 AREA=0.25 RPV=100 }
+VIA polyCont { FROM=poly  TO=metal1  AREA=0.25 RPV=7 }
+VIA via1 { FROM=metal1  TO=metal2  AREA=0.25 RPV=1.0 }
+VIA via2 { FROM=metal2  TO=metal3  AREA=0.25 RPV=1.0 }
+$
+$
+$
+$ **** end of itf file 
+
+
+
+$$ end_max_ITF
+$ 
+$$ begin_mapping_file
+$ conducting_layers
+$   poly          poly
+$   metal1        metal1
+$   metal2        metal2
+$   metal3        metal3
+$ 
+$ via_layers
+$   polyCont      polyCont
+$   via1          via1
+$   via2          via2
+$ 
+$ marker_layers
+$ 
+$ remove_layers
+$ 
+$ 
+$$ end_mapping_file

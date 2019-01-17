@@ -1,0 +1,32 @@
+icc_shell> gui_start
+ + VUE INFO: Please click Verification->IC Validator VUE in LayoutWindow menu
+to launch VUE.
+
+ + VUE ERROR: couldn't open socket: address already in use
+
+ + VUE ERROR: couldn't open socket: address already in use
+
+ + VUE INFO: Found a usable port: 2447
+
+Information: Loaded Icv extension from /usr/synopsys/icvalidator/M-2017.06-SP2-6 (GUI-024)
+ + VUE INFO: Please click Verification->Hercules VUE in LayoutWindow menu
+to launch VUE.
+
+ + VUE ERROR: couldn't open socket: address already in use
+
+ + VUE ERROR: couldn't open socket: address already in use
+
+ + VUE INFO: Found a usable port: 2347
+
+Information: Loaded Hercules extension from /usr/synopsys/hercules/B-2008.09-SP5-HF4 (GUI-024)
+Information: Visibility is turned ON for cells and cell contents because the task is set to Block Implementation (GUI-026)
+icc_shell> open_mw_lib /home/user6/Mauricio/ASIC_2019/IC_Compiler/LAB1/MW_DTMF_LIB
+{MW_DTMF_LIB}
+icc_shell> ::iccGUI::open_mw_cel  DTMF_postPlaceOPT
+icc_shell> open_mw_cel DTMF_postPlaceOPT
+Preparing data for query................... 
+Warning: No valid link library found; check the link_library variable. (IFS-008)
+Information: Opened "DTMF_postPlaceOPT.CEL;1" from "/home/user6/Mauricio/ASIC_2019/IC_Compiler/LAB1/MW_DTMF_LIB" library. (MWUI-068)
+{DTMF_postPlaceOPT}
+icc_shell> 
+icc_shell> 

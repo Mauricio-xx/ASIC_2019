@@ -1,0 +1,39 @@
+#@ # 
+#@ # Running icc_shell Version M-2016.12-SP5-3 for linux64 -- Dec 07, 2017
+#@ # Date:   Thu Jan 17 16:42:11 2019
+#@ # Run by: user6@track1
+#@ 
+
+source setup.tcl -echo
+#@ # -- Starting source setup.tcl
+
+#@ 
+#@ 
+#@ set target_library "c5n_utah_std_v5_t27.db"
+#@ set link_library "c5n_utah_std_v5_t27.db io.db"
+#@ set search_path "./MW /logic /scripts /inputs/"
+#@ set mw_reference_libraries "MW/UTHA_V1P1 MW/ICG MW/IO"
+#@ set TECH_FILE "MW/UTAH.tf"
+#@ set TLUPLUS_MAX_FILE "MW/ami500.tluplus"
+#@ set TLUPLUS_MIN_FILE "MW/ami500.tluplus"
+#@ set MAP_FILE "MW/ami500hxkx_3m.map"; #map file
+#@ 
+#@ 
+#@ set mw_disign_library MW_TOP_LIB 
+#@ set mw_reference_library "MW/UTHA_V1P1 MW/ICG MW/IO"
+#@ #
+#@ sh rm -rf $mw_design_library
+#@ 
+#@ #
+#@ set mw_use_layer_enhancement true
+#@ create_mw_lib  -technology $TECH_FILE 	       -mw_reference_library $mw_reference_library 		$mw_design_library
+#@ 
+#@ 
+#@ open_mw_lib $mw_design_library
+#@ 
+#@ check_library
+#@ 
+#@ check_tlu_plus_files -max_tlu $TLUPLUS_MAX_FILE 		     -min_tlu $TLUPLUS_MIN_FILE 		     -map_file $MAP_FILE
+#@ 
+#@ # -- End source setup.tcl
+

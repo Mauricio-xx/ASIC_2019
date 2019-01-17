@@ -1,0 +1,84 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : top_WIDTH8
+Version: M-2016.12-SP5-3
+Date   : Thu Jan 17 12:34:11 2019
+****************************************
+
+Operating Conditions: op_cond_typ   Library: op_cond_typ
+Wire Load Model Mode: top
+
+  Startpoint: datain_a_bank/dout_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: aluout_bank/dout_reg[7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             1.00       1.00
+  datain_a_bank/dout_reg[1]/ICLK (DFRX1)                  0.00       1.00 r
+  datain_a_bank/dout_reg[1]/Q (DFRX1)                     2.91       3.91 r
+  datain_a_bank/U6/OUT (INX4)                             0.31       4.22 f
+  datain_a_bank/U5/OUT (INX6)                             0.31       4.52 r
+  datain_a_bank/dout[1] (mux4_register_bank_WIDTH8_1)     0.00       4.52 r
+  calculator/in_a[1] (alu_WIDTH8_NOPS4)                   0.00       4.52 r
+  calculator/U150/OUT (NO2X1)                             0.74       5.27 f
+  calculator/U131/OUT (NA2X1)                             0.79       6.06 r
+  calculator/U155/OUT (INX4)                              0.41       6.47 f
+  calculator/U222/OUT (NA2X1)                             0.44       6.91 r
+  calculator/U462/OUT (NA3X1)                             0.43       7.35 f
+  calculator/U633/OUT (NA2X1)                             0.58       7.93 r
+  calculator/U549/OUT (NA3X1)                             0.44       8.37 f
+  calculator/U239/OUT (NA2X1)                             0.47       8.84 r
+  calculator/U274/OUT (NA3X1)                             0.49       9.32 f
+  calculator/U456/OUT (INX4)                              0.42       9.74 r
+  calculator/U455/OUT (NA2X1)                             0.40      10.14 f
+  calculator/U988/OUT (INX2)                              0.35      10.49 r
+  calculator/U151/OUT (NA3X1)                             0.37      10.86 f
+  calculator/U91/OUT (NA3X1)                              0.50      11.36 r
+  calculator/U90/OUT (INX4)                               0.40      11.75 f
+  calculator/U116/OUT (NA2X1)                             0.39      12.15 r
+  calculator/U115/OUT (NA2X1)                             0.39      12.54 f
+  calculator/U464/OUT (NA3X1)                             0.59      13.13 r
+  calculator/U472/OUT (NA3I1X1)                           0.59      13.72 f
+  calculator/U598/OUT (NA2X1)                             0.69      14.42 r
+  calculator/U597/OUT (NA3X1)                             0.58      15.00 f
+  calculator/U86/OUT (NA2X1)                              0.68      15.68 r
+  calculator/U85/OUT (INX4)                               0.35      16.03 f
+  calculator/U670/OUT (NA2I1X1)                           0.56      16.59 r
+  calculator/U301/OUT (NA3I1X1)                           0.60      17.19 f
+  calculator/U469/OUT (NA3X1)                             0.77      17.96 r
+  calculator/U468/OUT (NA3X1)                             0.39      18.35 f
+  calculator/U775/OUT (INX2)                              0.28      18.63 r
+  calculator/U753/OUT (NA3X1)                             0.34      18.98 f
+  calculator/U467/OUT (NA3X1)                             0.41      19.38 r
+  calculator/U466/OUT (NA2I1X1)                           0.32      19.70 f
+  calculator/U1827/OUT (NA2X1)                            0.37      20.07 r
+  calculator/out_low[7] (alu_WIDTH8_NOPS4)                0.00      20.07 r
+  aluout_bank/din[7] (register_bank_WIDTH18)              0.00      20.07 r
+  aluout_bank/U48/OUT (NA2I1X1)                           0.33      20.40 f
+  aluout_bank/U50/OUT (NA2X1)                             0.38      20.78 r
+  aluout_bank/dout_reg[7]/D (DFRQX1)                      0.00      20.78 r
+  data arrival time                                                 20.78
+
+  clock clk (rise edge)                                  20.00      20.00
+  clock network delay (ideal)                             1.00      21.00
+  clock uncertainty                                      -2.00      19.00
+  aluout_bank/dout_reg[7]/ICLK (DFRQX1)                   0.00      19.00 r
+  library setup time                                     -0.12      18.88
+  data required time                                                18.88
+  --------------------------------------------------------------------------
+  data required time                                                18.88
+  data arrival time                                                -20.78
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.91
+
+
+1

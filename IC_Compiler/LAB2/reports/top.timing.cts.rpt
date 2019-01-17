@@ -1,0 +1,325 @@
+Warning: Cell 'u_din_1[3]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_1[4]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_1[5]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_1[6]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_1[7]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_1[8]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_1[9]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_1[10]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_1[11]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_1[12]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_1[13]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_1[14]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_1[15]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_1[16]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_1[17]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_cmdin[0]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_cmdin[1]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_cmdin[2]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_cmdin[3]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_cmdin[4]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_cmdin[5]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_rst[0]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_clk[0]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_dout_high[13]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_dout_high[14]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_dout_high[15]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_dout_high[16]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_dout_high[17]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_dout_low[0]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_dout_low[1]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_3[0]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_3[1]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_3[2]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_3[3]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_3[4]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_3[5]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_3[6]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_3[7]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_3[8]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_3[9]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_3[10]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_3[11]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_3[12]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_3[13]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_3[14]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_3[15]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_3[16]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_3[17]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_2[0]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_2[1]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_2[2]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_2[3]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_2[4]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_2[5]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_2[6]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_2[7]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_2[8]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_2[9]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_2[10]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_2[11]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_2[12]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_2[13]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_2[14]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_2[15]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_2[16]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_2[17]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_1[0]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_1[1]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_din_1[2]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_dout_low[2]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_dout_low[3]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_dout_low[4]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_dout_low[5]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_dout_low[6]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_dout_low[7]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_dout_low[8]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_dout_low[9]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_dout_low[10]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_dout_low[11]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_dout_low[12]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_dout_low[13]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_dout_low[14]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_dout_low[15]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_dout_low[16]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_dout_low[17]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_error[0]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_zero[0]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_dout_high[0]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_dout_high[1]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_dout_high[2]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_dout_high[3]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_dout_high[4]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_dout_high[5]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_dout_high[6]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_dout_high[7]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_dout_high[8]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_dout_high[9]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_dout_high[10]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_dout_high[11]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Cell 'u_dout_high[12]_pad' is being marked as "dont_touch" because it has 
+	a fixed_placement attribute. (PSYN-040)
+Warning: Clock network timing may not be up-to-date since only 97.560974 percentage of clock nets are routed. (TIM-233)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : top_WIDTH18
+Version: O-2018.06-SP3
+Date   : Wed Jan  9 08:24:57 2019
+****************************************
+
+ * Some/all delay information is back-annotated.
+
+Operating Conditions: typical   Library: c5n_utah_std_v5_t27
+Wire Load Model Mode: Inactive.
+	Parasitic source    : LPE
+	Parasitic mode      : RealRVirtualC
+	Extraction mode     : MIN_MAX
+	Extraction derating : 27/27/27
+
+Information: Percent of Arnoldi-based delays =  2.00%
+
+Information: Percent of CCS-based delays =  1.95%
+
+  Startpoint: clk[0]_r_REG65_S8
+              (rising edge-triggered flip-flop clocked by clk[0])
+  Endpoint: clk[0]_r_REG18_S7
+            (rising edge-triggered flip-flop clocked by clk[0])
+  Path Group: clk[0]
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk[0] (rise edge)                 0.00       0.00
+  clock network delay (propagated)         4.11       4.11
+  clk[0]_r_REG65_S8/CLK (DCX1)             0.00       4.11 r
+  clk[0]_r_REG65_S8/Q (DCX1)               0.86       4.97 f
+  U626/Y (BUFX4)                           0.46 *     5.42 f
+  U6254/Y (NOR2X2)                         0.25 *     5.67 r
+  U668/Y (NAND2X2)                         0.14 *     5.81 f
+  U669/Y (NAND2X2)                         0.20 *     6.02 r
+  U670/Y (NOR2X2)                          0.18 *     6.20 f
+  U671/Y (NAND2X2)                         0.32 *     6.52 r
+  U6545/Y (INVX8)                          0.12 *     6.63 f
+  U6546/Y (INVX4)                          0.24 *     6.87 r
+  U813/Y (NOR2X2)                          0.26 *     7.14 f
+  U5374/Y (BUFX2)                          0.34 *     7.47 f
+  U6296/Y (NOR2X2)                         0.19 *     7.66 r
+  U819/Y (NAND2X1)                         0.18 *     7.84 f
+  U820/Y (NAND2X2)                         0.27 *     8.11 r
+  U857/Y (NAND2X1)                         0.26 *     8.37 f
+  U858/Y (NAND2X2)                         0.26 *     8.62 r
+  U860/Y (AOI21X1)                         0.30 *     8.93 f
+  U861/Y (XOR2X1)                          0.41 *     9.34 r
+  U874/Y (AOI22X1)                         0.21 *     9.55 f
+  U875/Y (NAND2X2)                         0.41 *     9.96 r
+  U1228/Y (NOR2X1)                         0.46 *    10.42 f
+  U1233/Y (OAI21X1)                        0.33 *    10.75 r
+  U1234/Y (AOI21X1)                        0.36 *    11.11 f
+  U1237/Y (OAI21X1)                        0.27 *    11.38 r
+  U1238/Y (INVX1)                          0.29 *    11.67 f
+  U6311/Y (INVX2)                          0.12 *    11.80 r
+  U6309/Y (NAND2X1)                        0.18 *    11.97 f
+  U6310/Y (NAND2X2)                        0.25 *    12.22 r
+  U5840/Y (NAND2X2)                        0.22 *    12.44 f
+  U2174/Y (NAND2X2)                        0.21 *    12.66 r
+  U6483/Y (INVX4)                          0.25 *    12.90 f
+  U1487/Y (AOI22X1)                        0.36 *    13.27 r
+  U1501/Y (NAND2X2)                        0.36 *    13.62 f
+  U1502/Y (NOR2X2)                         0.23 *    13.85 r
+  U1514/Y (NOR2X1)                         0.53 *    14.39 f
+  U1557/Y (NAND2X2)                        0.36 *    14.75 r
+  U1598/Y (NOR2X2)                         0.29 *    15.04 f
+  U1599/Y (NAND2X2)                        0.28 *    15.32 r
+  U1600/Y (NAND2X2)                        0.15 *    15.47 f
+  U1603/Y (NAND2X1)                        0.19 *    15.65 r
+  U5774/Y (INVX2)                          0.15 *    15.81 f
+  U5768/Y (NAND2X2)                        0.23 *    16.03 r
+  U5769/Y (INVX8)                          0.12 *    16.15 f
+  U5691/Y (INVX8)                          0.15 *    16.30 r
+  U5692/Y (INVX4)                          0.10 *    16.39 f
+  U1667/Y (NOR2X2)                         0.14 *    16.53 r
+  U5514/Y (BUFX8)                          0.36 *    16.89 r
+  U1828/Y (AOI22X1)                        0.24 *    17.13 f
+  U1829/Y (NAND2X2)                        0.44 *    17.56 r
+  U2158/Y (NOR2X1)                         0.48 *    18.04 f
+  U6248/Y (INVX1)                          0.26 *    18.30 r
+  U1221/Y (NAND2X2)                        0.15 *    18.45 f
+  U1254/Y (INVX4)                          0.10 *    18.55 r
+  U1251/Y (NAND2X2)                        0.13 *    18.68 f
+  U1273/Y (INVX4)                          0.13 *    18.80 r
+  U2225/Y (AOI21X1)                        0.28 *    19.09 f
+  U2226/Y (NOR2X1)                         0.24 *    19.33 r
+  U2227/Y (NOR2X2)                         0.20 *    19.53 f
+  U2228/Y (NAND2X2)                        0.25 *    19.78 r
+  U1733/Y (INVX4)                          0.15 *    19.93 f
+  U1741/Y (INVX4)                          0.31 *    20.24 r
+  U4818/Y (NOR2X2)                         0.32 *    20.56 f
+  U4789/Y (INVX4)                          0.16 *    20.72 r
+  U6394/Y (INVX4)                          0.31 *    21.03 f
+  U6645/Y (BUFX4)                          0.48 *    21.51 f
+  U1470/Y (AND2X1)                         0.47 *    21.98 f
+  U1469/Y (INVX2)                          0.15 *    22.13 r
+  U4032/Y (NAND2X2)                        0.22 *    22.35 f
+  U5952/Y (NOR2X2)                         0.18 *    22.53 r
+  U5954/Y (NOR2X1)                         0.26 *    22.78 f
+  U5958/Y (AOI21X1)                        0.27 *    23.05 r
+  U5973/Y (OAI21X1)                        0.40 *    23.45 f
+  clk[0]_r_REG18_S7/D (DCX1)               0.00 *    23.46 f
+  data arrival time                                  23.46
+
+  clock clk[0] (rise edge)                20.00      20.00
+  clock network delay (propagated)         4.06      24.06
+  clk[0]_r_REG18_S7/CLK (DCX1)             0.00      24.06 r
+  library setup time                      -0.34      23.73
+  data required time                                 23.73
+  -----------------------------------------------------------
+  data required time                                 23.73
+  data arrival time                                 -23.46
+  -----------------------------------------------------------
+  slack (MET)                                         0.27
+
+
+1

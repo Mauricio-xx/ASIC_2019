@@ -1,0 +1,33 @@
+Initializing gui preferences from file  /home/user6/.synopsys_icc_prefs.tcl
+icc_shell> source scripts/setup.tcl -echo
+Error: could not open script file "scripts/setup.tcl" (CMD-015)
+icc_shell> ls
+.  ..  LAB1  LAB2  command.log  filenames.log  icc_output.txt  leer.txt
+icc_shell> sh cd ..
+icc_shell> ls
+.  ..  LAB1  LAB2  command.log  filenames.log  icc_output.txt  leer.txt
+icc_shell> cd ..
+icc_shell> ls
+.  ..  .git  IC_Compiler  README.md  dc_shell  verilog_files(intro labs)
+icc_shell> cd IC_Compiler/
+icc_shell> ls
+.  ..  LAB1  LAB2  command.log  filenames.log  icc_output.txt  leer.txt
+icc_shell> cd LAB2
+icc_shell> ls
+.   MW          command.log     inputs  logs      readme.txt  results
+..  MW_TOP_LIB  icc_output.txt  logic   net.acts  reports     scripts
+icc_shell> source scripts/setup.tcl -echo
+set target_library "c5n_utah_std_v5_t27.db"
+set link_library "c5n_utah_std_v5_t27.db io.db"
+set search_path "./MW /logic /scripts /inputs/"
+set mw_reference_libraries "MW/UTHA_V1P1 MW/ICG MW/IO"
+set TECH_FILES "MW/UTAH.tf"
+set TLUPLUS_MAX_FILE "MW/ami500.tluplus"
+set TLUPLUS_MIN_FILE "MW/ami500.tluplus"
+set MAP_FILE "MW/ami500hxkx_3m.map"; #map file
+MW/ami500hxkx_3m.map
+icc_shell> clear
+Error: unknown command 'clear' (CMD-005)
+icc_shell> sh clear
+[3;J[H[2J
+icc_shell> 
