@@ -1,6 +1,6 @@
 #@ # 
 #@ # Running lc_shell Version M-2017.06-SP3-1 for linux64 -- Jan 22, 2018
-#@ # Date:   Thu Jan 17 17:32:37 2019
+#@ # Date:   Thu Jan 17 22:29:21 2019
 #@ # Run by: user6@track1
 #@ 
 
@@ -2341,8 +2341,8 @@ source /usr/synopsys/lc/M-2017.06-SP3-1/admin/setup//.synopsys_lc.setup
 #@ set_check_library_options
 #@ # -- End source /usr/synopsys/lc/M-2017.06-SP3-1/admin/setup//.synopsys_lc.setup
 
-source -echo -verbose /tmp/21571_1547757157159602/nglc_shell_command.tcl
-#@ # -- Starting source /tmp/21571_1547757157159602/nglc_shell_command.tcl
+source -echo -verbose /tmp/21743_1547774961252668/nglc_shell_command.tcl
+#@ # -- Starting source /tmp/21743_1547774961252668/nglc_shell_command.tcl
 
 #@ catch { set ::net_is_net_type_sun [list [binary format H* 30]] }
 #@ catch { set ::preroute_rotateViasToMaximizeCutsCount [list [binary format H* 30]] }
@@ -2813,7 +2813,7 @@ source -echo -verbose /tmp/21571_1547757157159602/nglc_shell_command.tcl
 #@ catch { set ::libgen_max_differences [list [binary format H* 2d31]] }
 #@ catch { set ::site_info_file [list [binary format H* 2f7573722f73796e6f707379732f6963632f4d2d323031362e31322d5350352d332f61646d696e2f6c6963656e73652f736974655f696e666f]] }
 #@ catch { set ::physopt_ref_pdef_loaded "" }
-#@ catch { set ::search_path [list [binary format H* 2e2f4d57202e2f6c6f676963202e2f73637269707473202e2f696e707574732f]] }
+#@ catch { set ::search_path [list [binary format H* 2e202e2f4d57202e2f6c6f676963202e2f73637269707473202e2f696e70757473]] }
 #@ catch { set ::budget_min_wire_load [list [binary format H* 30]] }
 #@ catch { set ::trackAssign_m9LayerLengthLimit [list [binary format H* 30]] }
 #@ catch { set ::working_cell [list [binary format H* 30]] }
@@ -3132,7 +3132,7 @@ source -echo -verbose /tmp/21571_1547757157159602/nglc_shell_command.tcl
 #@ catch { set ::compile_instance_name_suffix "" }
 #@ catch { set ::power_lib2saif_rise_fall_pd [list [binary format H* 66616c7365]] }
 #@ catch { set ::bin_path [list [binary format H* 2f7573722f73796e6f707379732f6963632f4d2d323031362e31322d5350352d332f6c696e757836342f73796e2f62696e]] }
-#@ catch { set ::nglc_log_path [list [binary format H* 32313537315f31353437373537313537313539363032]] }
+#@ catch { set ::nglc_log_path [list [binary format H* 32313734335f31353437373734393631323532363638]] }
 #@ catch { set ::trackAssign_m6LayerLengthLimit [list [binary format H* 30]] }
 #@ catch { set ::duplicate_ports [list [binary format H* 66616c7365]] }
 #@ catch { set ::droute_fillMetalUniformly [list [binary format H* 30]] }
@@ -3445,11 +3445,11 @@ source -echo -verbose /tmp/21571_1547757157159602/nglc_shell_command.tcl
 #@ catch { set ::cts_self_gating_data_toggle_rate_filter [list [binary format H* 302e303031]] }
 #@ catch { set ::link_force_case [list [binary format H* 636865636b5f7265666572656e6365]] }
 #@ ##@@@## gen_nglc_check_lib_procedure
-#@ source /tmp/21571_1547757157159602/nglc_check_lib.tcl
-#@ # -- Starting source /tmp/21571_1547757157159602/nglc_check_lib.tcl
+#@ source /tmp/21743_1547774961252668/nglc_check_lib.tcl
+#@ # -- Starting source /tmp/21743_1547774961252668/nglc_check_lib.tcl
 
 #@ ##@@@## gen_nglc_check_lib_procedure
-#@ set search_path "./MW ./logic ./scripts ./inputs/"
+#@ set search_path ". ./MW ./logic ./scripts ./inputs"
 #@ set link_library "* c5n_utah_std_v5_t27.db c5n_utah_std_v5_t27.db io.db"
 #@ set target_library "c5n_utah_std_v5_t27.db"
 #@ set_check_library_options 

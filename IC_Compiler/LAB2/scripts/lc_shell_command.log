@@ -1,6 +1,6 @@
 #@ # 
 #@ # Running lc_shell Version M-2017.06-SP3-1 for linux64 -- Jan 22, 2018
-#@ # Date:   Thu Jan 17 16:42:34 2019
+#@ # Date:   Thu Jan 17 16:41:13 2019
 #@ # Run by: user6@track1
 #@ 
 
@@ -2341,8 +2341,8 @@ source /usr/synopsys/lc/M-2017.06-SP3-1/admin/setup//.synopsys_lc.setup
 #@ set_check_library_options
 #@ # -- End source /usr/synopsys/lc/M-2017.06-SP3-1/admin/setup//.synopsys_lc.setup
 
-source -echo -verbose /tmp/6532_1547754154462424/nglc_shell_command.tcl
-#@ # -- Starting source /tmp/6532_1547754154462424/nglc_shell_command.tcl
+source -echo -verbose /tmp/5344_1547754072823697/nglc_shell_command.tcl
+#@ # -- Starting source /tmp/5344_1547754072823697/nglc_shell_command.tcl
 
 #@ catch { set ::net_is_net_type_sun [list [binary format H* 30]] }
 #@ catch { set ::preroute_rotateViasToMaximizeCutsCount [list [binary format H* 30]] }
@@ -2372,6 +2372,7 @@ source -echo -verbose /tmp/6532_1547754154462424/nglc_shell_command.tcl
 #@ catch { set ::routeopt_restrict_tns_to_size_only [list [binary format H* 66616c7365]] }
 #@ catch { set ::placer_disable_macro_placement_timeout [list [binary format H* 66616c7365]] }
 #@ catch { set ::groute_paEqPinNetMaxPort [list [binary format H* 3230]] }
+#@ catch { set ::mw_references_library [list [binary format H* 4d572f555441485f56315031204d572f494347204d572f494f]] }
 #@ catch { set ::pin_is_ideal_network_source [list [binary format H* 30]] }
 #@ catch { set ::gen_max_ports_on_symbol_side [list [binary format H* 30]] }
 #@ catch { set ::timing_pocvm_corner_sigma [list [binary format H* 33]] }
@@ -2382,6 +2383,7 @@ source -echo -verbose /tmp/6532_1547754154462424/nglc_shell_command.tcl
 #@ catch { set ::compatibility_version [list [binary format H* 4d2d323031362e31322d5350352d33]] }
 #@ catch { set ::mv_no_cells_at_default_va [list [binary format H* 66616c7365]] }
 #@ catch { set ::sh_source_logging [list [binary format H* 74727565]] }
+#@ catch { set ::MW_REF_PATH [list [binary format H* 4d57]] }
 #@ catch { set ::read_db_lib_warnings [list [binary format H* 46414c5345]] }
 #@ catch { set ::sh_arch [list [binary format H* 6c696e75783634]] }
 #@ catch { set ::cts_fix_clock_tree_sinks [list [binary format H* 66616c7365]] }
@@ -2517,7 +2519,7 @@ source -echo -verbose /tmp/6532_1547754154462424/nglc_shell_command.tcl
 #@ catch { set ::droute_wireWidenPieceWise [list [binary format H* 30]] }
 #@ catch { set ::timing_use_enhanced_capacitance_modeling [list [binary format H* 74727565]] }
 #@ catch { set ::cts_traverse_dont_touch_subtrees [list [binary format H* 74727565]] }
-#@ catch { set ::link_path [list [binary format H* 63356e5f757461685f7374645f76355f7432372e646220696f2e6462]] }
+#@ catch { set ::link_path [list [binary format H* 2a202a2063356e5f757461685f7374645f76355f7432372e64622063356e5f757461685f7374645f76355f7432372e646220696f2e6462]] }
 #@ catch { set ::test_fast_feedthrough_analysis [list [binary format H* 66616c7365]] }
 #@ catch { set ::bit_blasted_bus_linking_naming_styles [list [binary format H* 25735c5b25645c5d202573282564292025735f25645f]] }
 #@ catch { set ::psynopt_density_limit [list [binary format H* 2d31]] }
@@ -2782,6 +2784,7 @@ source -echo -verbose /tmp/6532_1547754154462424/nglc_shell_command.tcl
 #@ catch { set ::view_use_x_routines [list [binary format H* 74727565]] }
 #@ catch { set ::route_m11ExtraCost [list [binary format H* 30]] }
 #@ catch { set ::timing_enable_through_paths [list [binary format H* 66616c7365]] }
+#@ catch { set ::search_pads [list [binary format H* 2e204d572f206c6f6769632f20736372697074732f20696e707574732f]] }
 #@ catch { set ::droute_m1NoWrongWayExtraCost [list [binary format H* 30]] }
 #@ catch { set ::spg_high_effort_mux_area_structuring [list [binary format H* 74727565]] }
 #@ catch { set ::view_draw_text_breakpoint [list [binary format H* 302e3031]] }
@@ -2813,7 +2816,7 @@ source -echo -verbose /tmp/6532_1547754154462424/nglc_shell_command.tcl
 #@ catch { set ::libgen_max_differences [list [binary format H* 2d31]] }
 #@ catch { set ::site_info_file [list [binary format H* 2f7573722f73796e6f707379732f6963632f4d2d323031362e31322d5350352d332f61646d696e2f6c6963656e73652f736974655f696e666f]] }
 #@ catch { set ::physopt_ref_pdef_loaded "" }
-#@ catch { set ::search_path [list [binary format H* 2e2f4d57202f6c6f676963202f73637269707473202f696e707574732f]] }
+#@ catch { set ::search_path [list [binary format H* 2e202f7573722f73796e6f707379732f6963632f4d2d323031362e31322d5350352d332f6c69627261726965732f73796e202f7573722f73796e6f707379732f6963632f4d2d323031362e31322d5350352d332f6d696e706f7765722f73796e202f7573722f73796e6f707379732f6963632f4d2d323031362e31322d5350352d332f64772f73796e5f766572202f7573722f73796e6f707379732f6963632f4d2d323031362e31322d5350352d332f64772f73696d5f766572]] }
 #@ catch { set ::budget_min_wire_load [list [binary format H* 30]] }
 #@ catch { set ::trackAssign_m9LayerLengthLimit [list [binary format H* 30]] }
 #@ catch { set ::working_cell [list [binary format H* 30]] }
@@ -2881,7 +2884,6 @@ source -echo -verbose /tmp/6532_1547754154462424/nglc_shell_command.tcl
 #@ catch { set ::droute_advRouteCompletionEffort [list [binary format H* 30]] }
 #@ catch { set ::sdf_enable_cond_start_end [list [binary format H* 66616c7365]] }
 #@ catch { set ::uniquify_keep_original_design [list [binary format H* 66616c7365]] }
-#@ catch { set ::mw_reference_libraries [list [binary format H* 4d572f555448415f56315031204d572f494347204d572f494f]] }
 #@ catch { set ::groute_macroBndryWidth [list [binary format H* 31]] }
 #@ catch { set ::timing_aocvm_enable_analysis [list [binary format H* 66616c7365]] }
 #@ catch { set ::rc_input_threshold_pct_rise [list [binary format H* 35302e303030303030]] }
@@ -2889,7 +2891,7 @@ source -echo -verbose /tmp/6532_1547754154462424/nglc_shell_command.tcl
 #@ catch { set ::total_num_blockages_sun [list [binary format H* 30]] }
 #@ catch { set ::droute_stopIfNoLicense [list [binary format H* 30]] }
 #@ catch { set ::droute_metalFillDensityIncrement [list [binary format H* 3130]] }
-#@ catch { set ::mw_design_library "" }
+#@ catch { set ::mw_design_library [list [binary format H* 4d575f544f505f4c4942]] }
 #@ catch { set ::mv_output_upf_line_indent [list [binary format H* 32]] }
 #@ catch { set ::psyn_stress_map [list [binary format H* 66616c7365]] }
 #@ catch { set ::strmin_cell_boundary_datatype [list [binary format H* 30]] }
@@ -3132,12 +3134,11 @@ source -echo -verbose /tmp/6532_1547754154462424/nglc_shell_command.tcl
 #@ catch { set ::compile_instance_name_suffix "" }
 #@ catch { set ::power_lib2saif_rise_fall_pd [list [binary format H* 66616c7365]] }
 #@ catch { set ::bin_path [list [binary format H* 2f7573722f73796e6f707379732f6963632f4d2d323031362e31322d5350352d332f6c696e757836342f73796e2f62696e]] }
-#@ catch { set ::nglc_log_path [list [binary format H* 363533325f31353437373534313534343632343234]] }
+#@ catch { set ::nglc_log_path [list [binary format H* 353334345f31353437373534303732383233363937]] }
 #@ catch { set ::trackAssign_m6LayerLengthLimit [list [binary format H* 30]] }
 #@ catch { set ::duplicate_ports [list [binary format H* 66616c7365]] }
 #@ catch { set ::droute_fillMetalUniformly [list [binary format H* 30]] }
 #@ catch { set ::net_is_interface_logic_sun [list [binary format H* 30]] }
-#@ catch { set ::mw_disign_library [list [binary format H* 4d575f544f505f4c4942]] }
 #@ catch { set ::route_m15ExtraCost [list [binary format H* 30]] }
 #@ catch { set ::groute_combMaxConnections [list [binary format H* 2d31]] }
 #@ catch { set ::view_watcher "" }
@@ -3222,7 +3223,7 @@ source -echo -verbose /tmp/6532_1547754154462424/nglc_shell_command.tcl
 #@ catch { set ::suppress_errors "" }
 #@ catch { set ::droute_pinTaperMode [list [binary format H* 31]] }
 #@ catch { set ::droute_numCPUs [list [binary format H* 30]] }
-#@ catch { set ::link_library [list [binary format H* 63356e5f757461685f7374645f76355f7432372e646220696f2e6462]] }
+#@ catch { set ::link_library [list [binary format H* 2a202a2063356e5f757461685f7374645f76355f7432372e64622063356e5f757461685f7374645f76355f7432372e646220696f2e6462]] }
 #@ catch { set ::vao_feedthrough_module_name_prefix "" }
 #@ catch { set ::preroute_DropViasToLargeAreaFirst [list [binary format H* 30]] }
 #@ catch { set ::power_enable_datapath_gating [list [binary format H* 54525545]] }
@@ -3321,7 +3322,7 @@ source -echo -verbose /tmp/6532_1547754154462424/nglc_shell_command.tcl
 #@ catch { set ::pin_is_disable_timing [list [binary format H* 30]] }
 #@ catch { set ::test_core_wrap_use_sync_ctl_segment_length_for_fanout_check [list [binary format H* 66616c7365]] }
 #@ catch { set ::update_clock_latency_consider_float_pin_delays [list [binary format H* 66616c7365]] }
-#@ catch { set ::mw_reference_library [list [binary format H* 4d572f555448415f56315031204d572f494347204d572f494f]] }
+#@ catch { set ::mw_reference_library "" }
 #@ catch { set ::enable_page_mode [list [binary format H* 74727565]] }
 #@ catch { set ::synthetic_library "" }
 #@ catch { set ::fpopt_no_legalize [list [binary format H* 66616c7365]] }
@@ -3360,7 +3361,7 @@ source -echo -verbose /tmp/6532_1547754154462424/nglc_shell_command.tcl
 #@ catch { set ::sh_enable_line_editing [list [binary format H* 74727565]] }
 #@ catch { set ::cts_prects_upsize_gates [list [binary format H* 74727565]] }
 #@ catch { set ::via_can_change_pin_shape [list [binary format H* 66616c7365]] }
-#@ catch { set ::target_library [list [binary format H* 63356e5f757461685f7374645f76355f7432372e6462]] }
+#@ catch { set ::target_library [list [binary format H* 2a2063356e5f757461685f7374645f76355f7432372e6462]] }
 #@ catch { set ::strmin_create_rectilinear_boundary [list [binary format H* 66616c7365]] }
 #@ catch { set ::banking_enable_concatenate_name [list [binary format H* 74727565]] }
 #@ catch { set ::si_filter_accum_aggr_noise_peak_ratio [list [binary format H* 302e3033]] }
@@ -3446,13 +3447,13 @@ source -echo -verbose /tmp/6532_1547754154462424/nglc_shell_command.tcl
 #@ catch { set ::cts_self_gating_data_toggle_rate_filter [list [binary format H* 302e303031]] }
 #@ catch { set ::link_force_case [list [binary format H* 636865636b5f7265666572656e6365]] }
 #@ ##@@@## gen_nglc_check_lib_procedure
-#@ source /tmp/6532_1547754154462424/nglc_check_lib.tcl
-#@ # -- Starting source /tmp/6532_1547754154462424/nglc_check_lib.tcl
+#@ source /tmp/5344_1547754072823697/nglc_check_lib.tcl
+#@ # -- Starting source /tmp/5344_1547754072823697/nglc_check_lib.tcl
 
 #@ ##@@@## gen_nglc_check_lib_procedure
-#@ set search_path "./MW /logic /scripts /inputs/"
-#@ set link_library "c5n_utah_std_v5_t27.db io.db"
-#@ set target_library "c5n_utah_std_v5_t27.db"
+#@ set search_path ". /usr/synopsys/icc/M-2016.12-SP5-3/libraries/syn /usr/synopsys/icc/M-2016.12-SP5-3/minpower/syn /usr/synopsys/icc/M-2016.12-SP5-3/dw/syn_ver /usr/synopsys/icc/M-2016.12-SP5-3/dw/sim_ver"
+#@ set link_library "* * c5n_utah_std_v5_t27.db c5n_utah_std_v5_t27.db io.db"
+#@ set target_library "* c5n_utah_std_v5_t27.db"
 #@ set_check_library_options 
 #@ check_library 
 #@ ##@@@##

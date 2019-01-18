@@ -1,0 +1,377 @@
+CRTE_SNAPSHOT_START
+
+SECTION_CRTE_VERSION
+3.0
+
+SECTION_PID
+17067
+
+SECTION_POLLING_INTERVAL
+5
+
+SECTION_DATE_TIME
+Thu Jan 17 21:14:25 -03 2019 (1547770465)
+
+SECTION_OS_VERSION
+osname: Linux
+hostname: track1
+arch: x86_64
+release_version: 3.10.0-957.1.3.el7.x86_64
+
+SECTION_IPC_INFO
+
+------ Message Queues --------
+key        msqid      owner      perms      used-bytes   messages    
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x00000000 65536      gdm        777        16384      1          dest         
+0x00000000 163841     gdm        777        3145728    2          dest         
+0x00000000 294914     user6      600        393216     2          dest         
+0x00000000 458755     user6      600        393216     2          dest         
+0x00000000 1802244    esteban    600        393216     2          dest         
+0x00000000 753669     user6      600        393216     2          dest         
+0x00000000 7634950    user3      600        393216     2          dest         
+0x00000000 851975     user6      600        524288     2          dest         
+0x00000000 2228232    user6      600        524288     2          dest         
+0x00000000 1048585    esteban    600        393216     2        SECTION_ULIMIT
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 97415
+max locked memory       (kbytes, -l) 64
+max memory size         (kbytes, -m) unlimited
+open files                      (-n) 4096
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) 8192
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 4096
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+
+SECTION_SYSCONF
+_SC_THREAD_SAFE_FUNCTIONS= 200809
+_SC_CLK_TCK= 100
+_SC_OPEN_MAX= 4096
+_SC_PAGE_SIZE= 4096
+_SC_ARG_MAX= 2097152
+_SC_CHILD_MAX= 4096
+_SC_LINE_MAX= 2048
+
+SECTION_FULL_COMMAND
+/usr/synopsys/icc/M-2016.12-SP5-3/linux64/syn/bin/galaxy_icc_exec -shell icc_shell -tcl_mode -xg_mode -r /usr/synopsys/icc/M-2016.12-SP5-3
+
+SECTION_CPUINFO
+total_core: 16
+
+model_name:  Intel(R) Xeon(R) CPU E5-2660 v2 @ 2.20GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc eagerfpu pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt aes xsave avx rdrand hypervisor lahf_lm fsgsbase
+cpu_family: 6
+core_frequency_mhz: 2200
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 25600
+ht: 0
+
+model_name:  Intel(R) Xeon(R) CPU E5-2660 v2 @ 2.20GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc eagerfpu pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt aes xsave avx rdrand hypervisor lahf_lm fsgsbase
+cpu_family: 6
+core_frequency_mhz: 2200
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 25600
+ht: 0
+
+model_name:  Intel(R) Xeon(R) CPU E5-2660 v2 @ 2.20GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc eagerfpu pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt aes xsave avx rdrand hypervisor lahf_lm fsgsbase
+cpu_family: 6
+core_frequency_mhz: 2200
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 25600
+ht: 0
+
+model_name:  Intel(R) Xeon(R) CPU E5-2660 v2 @ 2.20GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc eagerfpu pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt aes xsave avx rdrand hypervisor lahf_lm fsgsbase
+cpu_family: 6
+core_frequency_mhz: 2200
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 25600
+ht: 0
+
+model_name:  Intel(R) Xeon(R) CPU E5-2660 v2 @ 2.20GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc eagerfpu pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt aes xsave avx rdrand hypervisor lahf_lm fsgsbase
+cpu_family: 6
+core_frequency_mhz: 2200
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 25600
+ht: 0
+
+model_name:  Intel(R) Xeon(R) CPU E5-2660 v2 @ 2.20GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc eagerfpu pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt aes xsave avx rdrand hypervisor lahf_lm fsgsbase
+cpu_family: 6
+core_frequency_mhz: 2200
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 25600
+ht: 0
+
+model_name:  Intel(R) Xeon(R) CPU E5-2660 v2 @ 2.20GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc eagerfpu pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt aes xsave avx rdrand hypervisor lahf_lm fsgsbase
+cpu_family: 6
+core_frequency_mhz: 2200
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 25600
+ht: 0
+
+model_name:  Intel(R) Xeon(R) CPU E5-2660 v2 @ 2.20GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc eagerfpu pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt aes xsave avx rdrand hypervisor lahf_lm fsgsbase
+cpu_family: 6
+core_frequency_mhz: 2200
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 25600
+ht: 0
+
+model_name:  Intel(R) Xeon(R) CPU E5-2660 v2 @ 2.20GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc eagerfpu pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt aes xsave avx rdrand hypervisor lahf_lm fsgsbase
+cpu_family: 6
+core_frequency_mhz: 2200
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 25600
+ht: 0
+
+model_name:  Intel(R) Xeon(R) CPU E5-2660 v2 @ 2.20GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc eagerfpu pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt aes xsave avx rdrand hypervisor lahf_lm fsgsbase
+cpu_family: 6
+core_frequency_mhz: 2200
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 25600
+ht: 0
+
+model_name:  Intel(R) Xeon(R) CPU E5-2660 v2 @ 2.20GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc eagerfpu pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt aes xsave avx rdrand hypervisor lahf_lm fsgsbase
+cpu_family: 6
+core_frequency_mhz: 2200
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 25600
+ht: 0
+
+model_name:  Intel(R) Xeon(R) CPU E5-2660 v2 @ 2.20GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc eagerfpu pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt aes xsave avx rdrand hypervisor lahf_lm fsgsbase
+cpu_family: 6
+core_frequency_mhz: 2200
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 25600
+ht: 0
+
+model_name:  Intel(R) Xeon(R) CPU E5-2660 v2 @ 2.20GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc eagerfpu pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt aes xsave avx rdrand hypervisor lahf_lm fsgsbase
+cpu_family: 6
+core_frequency_mhz: 2200
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 25600
+ht: 0
+
+model_name:  Intel(R) Xeon(R) CPU E5-2660 v2 @ 2.20GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc eagerfpu pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt aes xsave avx rdrand hypervisor lahf_lm fsgsbase
+cpu_family: 6
+core_frequency_mhz: 2200
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 25600
+ht: 0
+
+model_name:  Intel(R) Xeon(R) CPU E5-2660 v2 @ 2.20GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc eagerfpu pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt aes xsave avx rdrand hypervisor lahf_lm fsgsbase
+cpu_family: 6
+core_frequency_mhz: 2200
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 25600
+ht: 0
+
+model_name:  Intel(R) Xeon(R) CPU E5-2660 v2 @ 2.20GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc eagerfpu pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt aes xsave avx rdrand hypervisor lahf_lm fsgsbase
+cpu_family: 6
+core_frequency_mhz: 2200
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 25600
+ht: 0
+
+SECTION_OS_RELEASE_VERSION
+CentOS Linux release 7.6.1810 (Core) 
+
+
+SECTION_QSC_CHECKER
+
+        Script: qscchk.sh Version 1.9.1, 30 Mar 2017
+        Data: /tmp/sdp_17067_0/qscchk.dat QSC N Rev: auto, 06 Apr 2017
+     Copyright (c) 1988-2017 by Synopsys, Inc.
+             All RIGHTS RESERVED
+
+Checking for QSC N compliance... 
+Platform CentOS is not available for release N.
+Please check with the product team(s) for further information.
+
+Return code from the QSC checker script is 256
+
+SECTION_SYS/VM
+/proc/sys/vm/admin_reserve_kbytes:8192
+/proc/sys/vm/block_dump:0
+/proc/sys/vm/dirty_background_bytes:0
+/proc/sys/vm/dirty_background_ratio:10
+/proc/sys/vm/dirty_bytes:0
+/proc/sys/vm/dirty_expire_centisecs:3000
+/proc/sys/vm/dirty_ratio:30
+/proc/sys/vm/dirty_writeback_centisecs:500
+/proc/sys/vm/drop_caches:0
+/proc/sys/vm/extfrag_threshold:500
+/proc/sys/vm/hugepages_treat_as_movable:0
+/proc/sys/vm/hugetlb_shm_group:0
+/proc/sys/vm/laptop_mode:0
+/proc/sys/vm/legacy_va_layout:0
+/proc/sys/vm/lowmem_reserve_ratio:256	256	32
+/proc/sys/vm/max_map_count:65530
+/proc/sys/vm/memory_failure_early_kill:0
+/proc/sys/vm/memory_failure_recovery:1
+/proc/sys/vm/min_free_kbytes:67584
+/proc/sys/vm/min_slab_ratio:5
+/proc/sys/vm/min_unmapped_ratio:1
+/proc/sys/vm/mmap_min_addr:4096
+/proc/sys/vm/nr_hugepages:0
+/proc/sys/vm/nr_hugepages_mempolicy:0
+/proc/sys/vm/nr_overcommit_hugepages:0
+/proc/sys/vm/nr_pdflush_threads:0
+/proc/sys/vm/numa_zonelist_order:default
+/proc/sys/vm/oom_dump_tasks:1
+/proc/sys/vm/oom_kill_allocating_task:0
+/proc/sys/vm/overcommit_kbytes:0
+/proc/sys/vm/overcommit_memory:0
+/proc/sys/vm/overcommit_ratio:50
+/proc/sys/vm/page-cluster:3
+/proc/sys/vm/panic_on_oom:0
+/proc/sys/vm/percpu_pagelist_fraction:0
+/proc/sys/vm/stat_interval:1
+/proc/sys/vm/swappiness:30
+/proc/sys/vm/user_reserve_kbytes:131072
+/proc/sys/vm/vfs_cache_pressure:100
+/proc/sys/vm/zone_reclaim_mode:0
+
+
+SECTION_SWAP
+swap_partition: /dev/dm-1
+size_gb: 7
+
+CRTE_SNAPSHOT_END
+
+CRTE_PERIODIC_START 1 1547770465413
+
+SECTION_MPSTAT
+total_core: 16
+
+CPU     %user   %kernel %wait   %idle   
+all   4.068451 1.603819 0.001148 94.326576
+0     3.460876 1.339272 0.000436 95.199409
+1     4.944490 2.380588 0.000749 92.674171
+2     4.491262 2.240832 0.000694 93.267212
+3     4.644720 2.110142 0.000625 93.244514
+4     5.228085 2.027136 0.000620 92.744156
+5     5.044745 1.873644 0.001181 93.080437
+6     5.106133 1.766542 0.000426 93.126900
+7     4.484558 1.588521 0.000479 93.926445
+8     3.984958 1.430700 0.000518 94.583824
+9     3.534408 1.312839 0.000411 95.152344
+10     3.484647 1.255243 0.000499 95.259605
+11     3.088679 1.129464 0.000485 95.781364
+12     3.290018 1.188162 0.000464 95.521362
+13     3.336747 1.220839 0.000496 95.441917
+14     3.738075 1.646833 0.009903 94.605186
+15     3.262956 1.173092 0.000374 95.563568
+
+SECTION_PID_STATUS
+name: galaxy_icc_exec
+state: 1
+vmsize: 1807316
+vmrss: 331176
+vmdata: 1376788
+vmstk: 1668
+vmexe: 318424
+vmlib: 9848
+threads: 1
+
+SECTION_PROCESS_CPU_UTIL
+pid: 17067
+cpu_total_time: 450213627
+cpu_used_time: 1131
+cpu_p: 
+
+SECTION_SYSTEM_CPU_UTIL
+sys_cpu_p: 
+
+SECTION_MEMINFO
+memtotal: 24971644
+memfree: 9906332
+cached: 4668124
+swapcached: 0
+active: 10214080
+swaptotal: 8126460
+swapfree: 8126460
+
+SECTION_SMAPS
+shared_kb: 64216
+private_kb: 266968
+
+SECTION_DF
+Filesystem  Size  Used Avail Use%
+filesystem        49G  27G  22G    55
+
+Filesystem    Inodes   IUsed   IFree   IUse%
+filesystem          26214400  509708 25704692   4294962353
+
+SECTION_CWD
+Filesystem  Size  Used Avail Use%
+filesystem        41G  19G  21G    47
+
+Filesystem    Inodes   IUsed   IFree   IUse%
+filesystem          21622784  24579 21598205   4294879524
+
+SECTION_SWAP_RATE
+blk_read: 4920
+blk_wrtn: 0
+swap_in_rate: 
+swap_out_rate: 
+swap_in_rate: 
+swap_out_rate: 
+
+SECTION_FD_SIZE
+files: 30
+total_size: 3895055
+
+SECTION_NET_INTERFACE
+total_eth_avbl: 3
+
+name net_rx_err net_rx_drp net_tx_err net_tx_drp 
+enp0s3:         0        0        0        0
+    lo:         0        0        0        0
+virbr0-nic:               0        0        0        0
+
+SECTION_NFSSTAT
+Error: Could not collect the data.
+
+SECTION_THREAD_CPU_UTIL
+17067 : 17067 (galaxy_icc_exec) R 17584 17067 17584 34823 17067 4202496 251526 66155 11 2 912 144 32 43 20 0 1 0 28433860 1850691584 82794 18446744073709551615 4194304 330260065 140722500662784 140722500640520 140374378915552 0 32 4096 1135701759 0 0 0 17 13 0 0 11 0 0 332357632 347172608 1575231488 140722500667830 140722500667969 140722500667969 140722500673462 0
+
+CRTE_PERIODIC_END 1 1547770465413
